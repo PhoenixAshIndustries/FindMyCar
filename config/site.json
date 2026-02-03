@@ -1,1 +1,9 @@
-
+{
+  "enabledCompanies": ["enterprise", "national", "alamo"],
+  "labels": {
+    "enterprise": "Enterprise",
+    "national": "National",
+    "alamo": "Alamo"
+  },
+  "defaultCompany": "enterprise"
+}
