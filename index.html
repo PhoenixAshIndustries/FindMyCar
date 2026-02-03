@@ -1,31 +1,44 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lot Locator</title>
   <style>
-    body { font-family: system-ui, Arial; margin: 0; }
-    #bar { padding: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-    #status { padding: 0 12px 12px; color: #444; font-size: 13px; }
-    #map { height: calc(100vh - 110px); width: 100%; }
-    input, select, button { padding: 10px; font-size: 14px; }
+    :root { --pad: 12px; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    header { padding: var(--pad); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; border-bottom: 1px solid #e6e6e6; }
+    header > * { font-size: 14px; }
+    select, input, button { padding: 10px 12px; border-radius: 10px; border: 1px solid #d0d0d0; }
     button { cursor: pointer; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    #status { padding: 0 var(--pad) var(--pad); font-size: 13px; color: #444; }
+    .card { margin: 0 var(--pad) var(--pad); padding: var(--pad); border: 1px solid #e6e6e6; border-radius: 12px; }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .hint { color: #666; font-size: 12px; margin-top: 6px; }
   </style>
 </head>
 <body>
-  <div id="bar">
-    <select id="companySelect"></select>
-    <input id="spotInput" placeholder="Spot ID (e.g., E-241)" />
+  <header>
+    <select id="companySelect" aria-label="Company"></select>
+    <input id="spotInput" placeholder="Spot ID (e.g., SPOT-001)" inputmode="text" />
     <button id="findBtn">Find</button>
     <button id="navBtn" disabled>Navigate</button>
-  </div>
+  </header>
+
   <div id="status">Loading…</div>
-  <div id="map"></div>
+
+  <div class="card">
+    <div class="row">
+      <div><b>Selected:</b> <span id="selectedLabel" class="mono">—</span></div>
+      <div><b>Coords:</b> <span id="selectedCoords" class="mono">—</span></div>
+    </div>
+    <div class="hint">
+      Tip: QR/link format: <span class="mono">?company=enterprise&spot=SPOT-001</span>
+    </div>
+  </div>
 
   <script type="module" src="./main.js"></script>
-
-  <!-- Optional map display (requires Google Maps JS API key). Remove this script if you want 100% free. -->
-  
 </body>
 </html>
