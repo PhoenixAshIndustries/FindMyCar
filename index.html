@@ -1,1 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lot Locator</title>
+  <style>
+    body { font-family: system-ui, Arial; margin: 0; }
+    #bar { padding: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    #status { padding: 0 12px 12px; color: #444; font-size: 13px; }
+    #map { height: calc(100vh - 110px); width: 100%; }
+    input, select, button { padding: 10px; font-size: 14px; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="bar">
+    <select id="companySelect"></select>
+    <input id="spotInput" placeholder="Spot ID (e.g., E-241)" />
+    <button id="findBtn">Find</button>
+    <button id="navBtn" disabled>Navigate</button>
+  </div>
+  <div id="status">Loading…</div>
+  <div id="map"></div>
 
+  <script type="module" src="./main.js"></script>
+
+  <!-- Optional map display (requires Google Maps JS API key). Remove this script if you want 100% free. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async defer></script>
+</body>
+</html>
