@@ -9,5 +9,6 @@
     "national": "National",
     "alamo": "Alamo"
   },
-  "defaultCompany": "enterprise"
+  "defaultCompany": "enterprise",
+  "spotIdFormatHint": "Enter a stall number like 48, or SPOT-048"
 }
