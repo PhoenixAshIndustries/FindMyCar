@@ -3,39 +3,190 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Lot Locator</title>
+  <title>Find My Car</title>
   <style>
-    :root { --pad: 12px; }
-    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    header { padding: var(--pad); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; border-bottom: 1px solid #e6e6e6; }
-    header > * { font-size: 14px; }
-    select, input, button { padding: 10px 12px; border-radius: 10px; border: 1px solid #d0d0d0; }
-    button { cursor: pointer; }
-    button:disabled { opacity: 0.5; cursor: not-allowed; }
-    #status { padding: 0 var(--pad) var(--pad); font-size: 13px; color: #444; }
-    .card { margin: 0 var(--pad) var(--pad); padding: var(--pad); border: 1px solid #e6e6e6; border-radius: 12px; }
-    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .hint { color: #666; font-size: 12px; margin-top: 6px; }
+    :root{
+      --pad: 16px;
+      --blue: #1e6bff;
+      --blueDark:#1557d6;
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --border:#e2e8f0;
+      --radius:16px;
+      --shadow: 0 10px 24px rgba(15,23,42,.08);
+    }
+    * { box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap{
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 18px 14px 40px;
+    }
+    .hero{
+      margin-top: 10px;
+      padding: 18px 18px;
+      background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    h1{
+      margin:0;
+      font-size: 26px;
+      letter-spacing: -0.02em;
+    }
+    .sub{
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .card{
+      margin-top: 14px;
+      padding: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .row{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:stretch;
+      margin-top: 10px;
+    }
+    label{
+      display:block;
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 6px 2px;
+    }
+    .field{
+      flex: 1 1 180px;
+      min-width: 160px;
+    }
+    select, input{
+      width:100%;
+      padding: 14px 14px;
+      font-size: 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: #fff;
+      outline: none;
+    }
+    select:focus, input:focus{
+      border-color: rgba(30,107,255,.45);
+      box-shadow: 0 0 0 4px rgba(30,107,255,.15);
+    }
+    .actions{
+      flex: 0 0 auto;
+      display:flex;
+      gap:10px;
+      align-items:end;
+    }
+    button{
+      padding: 14px 16px;
+      font-size: 18px;
+      border-radius: 14px;
+      border: 0;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 650;
+      cursor: pointer;
+      box-shadow: 0 10px 18px rgba(30,107,255,.22);
+      min-width: 120px;
+    }
+    button:hover{ background: var(--blueDark); }
+    button:disabled{
+      background: #cbd5e1;
+      box-shadow:none;
+      cursor:not-allowed;
+    }
+    .status{
+      margin-top: 10px;
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .pill{
+      display:inline-block;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .mono{ font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .help{
+      margin-top: 10px;
+      padding: 12px 12px;
+      border-radius: 14px;
+      background: #f1f5ff;
+      border: 1px solid rgba(30,107,255,.18);
+      color: #1e293b;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .help b{ color: #0f172a; }
+    .tiny{
+      margin-top:10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
   </style>
 </head>
 <body>
-  <header>
-    <select id="companySelect" aria-label="Company"></select>
-    <input id="spotInput" placeholder="Spot ID (e.g., SPOT-001)" inputmode="text" />
-    <button id="findBtn">Find</button>
-    <button id="navBtn" disabled>Navigate</button>
-  </header>
-
-  <div id="status">Loading…</div>
-
-  <div class="card">
-    <div class="row">
-      <div><b>Selected:</b> <span id="selectedLabel" class="mono">—</span></div>
-      <div><b>Coords:</b> <span id="selectedCoords" class="mono">—</span></div>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Find Your Rental Car</h1>
+      <div class="sub">
+        Select your company, enter the <b>stall/spot number</b>, then tap <b>Navigate</b>.
+        We’ll open turn‑by‑turn directions in your phone’s Maps app.
+      </div>
     </div>
-    <div class="hint">
-      Tip: QR/link format: <span class="mono">?company=enterprise&spot=SPOT-001</span>
+
+    <div class="card">
+      <div class="row">
+        <div class="field">
+          <label for="companySelect">Company</label>
+          <select id="companySelect" aria-label="Company"></select>
+        </div>
+
+        <div class="field">
+          <label for="spotInput">Stall / Spot Number</label>
+          <input id="spotInput" placeholder="Example: 48" inputmode="text" autocomplete="off" />
+        </div>
+
+        <div class="actions">
+          <button id="findBtn">Find</button>
+          <button id="navBtn" disabled>Navigate</button>
+        </div>
+      </div>
+
+      <div class="status" id="status">Loading…</div>
+
+      <div class="help">
+        <b>Tip:</b> If your tag shows a number, just type the number (example: <span class="mono">48</span>).<br/>
+        You can also type the full code (example: <span class="mono">SPOT-048</span>).
+      </div>
+
+      <div class="tiny">
+        Power‑user link format: <span class="mono">?company=enterprise&spot=48</span> or <span class="mono">?company=enterprise&spot=SPOT-048</span>
+      </div>
+
+      <div class="tiny">
+        Selected: <span id="selectedLabel" class="pill mono">—</span>
+        &nbsp; Coordinates: <span id="selectedCoords" class="pill mono">—</span>
+      </div>
     </div>
   </div>
 
