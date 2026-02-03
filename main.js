@@ -2,14 +2,9 @@ let config = null;
 let allSpots = [];
 let selectedSpot = null;
 
-// Optional map
-let map = null;
-let spotMarker = null;
-
 const $ = (id) => document.getElementById(id);
 
 function setStatus(msg) { $("status").textContent = msg; }
-
 function normalize(s) { return (s || "").trim().toUpperCase(); }
 
 async function loadJson(path) {
@@ -22,18 +17,24 @@ function isIOS() {
   return /iPad|iPhone|iPod/.test(navigator.userAgent);
 }
 
-/**
- * FREE routing: opens native Maps app with destination coordinate.
- */
 function openNativeNavigation(lat, lng) {
+  const dlat = encodeURIComponent(lat);
+  const dlng = encodeURIComponent(lng);
+
   if (isIOS()) {
-    // Apple Maps walking
-    window.location.href = `https://maps.apple.com/?daddr=${lat},${lng}&dirflg=w`;
+    window.location.href = `https://maps.apple.com/?daddr=${dlat},${dlng}&dirflg=w`;
   } else {
-    // Google Maps walking
     window.location.href =
-      `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`;
+      `https://www.google.com/maps/dir/?api=1&destination=${dlat},${dlng}&travelmode=walking`;
   }
+}
+
+function getUrlParams() {
+  const p = new URLSearchParams(window.location.search);
+  return {
+    company: (p.get("company") || "").toLowerCase(),
+    spot: p.get("spot") || ""
+  };
 }
 
 function populateCompanies() {
@@ -49,37 +50,68 @@ function populateCompanies() {
   });
 
   const saved = localStorage.getItem("company");
+  const url = getUrlParams();
+
   const defaultCompany = config.defaultCompany || enabled[0];
-  sel.value = enabled.includes(saved) ? saved : defaultCompany;
+  const initial =
+    (enabled.includes(url.company) && url.company) ||
+    (enabled.includes(saved) && saved) ||
+    defaultCompany;
+
+  sel.value = initial;
 
   sel.addEventListener("change", () => {
     localStorage.setItem("company", sel.value);
-    selectedSpot = null;
-    $("navBtn").disabled = true;
-    setStatus(`Company set to ${sel.options[sel.selectedIndex].text}. Enter a Spot ID.`);
+    clearSelection();
+    setStatus(`Company set. Enter a Spot ID.`);
   });
+}
+
+function clearSelection() {
+  selectedSpot = null;
+  $("navBtn").disabled = true;
+  $("selectedLabel").textContent = "—";
+  $("selectedCoords").textContent = "—";
 }
 
 function findSpot(companyId, spotIdRaw) {
   const spotId = normalize(spotIdRaw);
-  const spot = allSpots.find(s =>
+  return allSpots.find(s =>
     normalize(s.company) === normalize(companyId) &&
     normalize(s.id) === spotId
-  );
-  return spot || null;
+  ) || null;
 }
 
-// Optional: show a pin on your map if Maps JS is present
-function ensureMap(lat, lng) {
-  if (!window.google?.maps) return; // map is optional
-  if (!map) {
-    map = new google.maps.Map($("map"), { center: { lat, lng }, zoom: 20, mapTypeId: "satellite" });
-  }
-  map.setCenter({ lat, lng });
-  map.setZoom(20);
+function showSelection(spot, companyId) {
+  selectedSpot = spot;
+  $("navBtn").disabled = false;
+  $("selectedLabel").textContent = `${spot.id} (${companyId})`;
+  $("selectedCoords").textContent = `${spot.lat}, ${spot.lng}`;
+  setStatus(`Found ${spot.id}. Tap Navigate to open Maps.`);
+}
 
-  if (spotMarker) spotMarker.setMap(null);
-  spotMarker = new google.maps.Marker({ map, position: { lat, lng } });
+function attachHandlers() {
+  $("findBtn").addEventListener("click", () => {
+    const companyId = $("companySelect").value;
+    const spotId = $("spotInput").value;
+
+    const spot = findSpot(companyId, spotId);
+    if (!spot) {
+      clearSelection();
+      setStatus(`Not found: ${normalize(spotId)}. Check the ID.`);
+      return;
+    }
+    showSelection(spot, companyId);
+  });
+
+  $("navBtn").addEventListener("click", () => {
+    if (!selectedSpot) return;
+    openNativeNavigation(selectedSpot.lat, selectedSpot.lng);
+  });
+
+  $("spotInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") $("findBtn").click();
+  });
 }
 
 async function boot() {
@@ -88,34 +120,16 @@ async function boot() {
     allSpots = await loadJson("./data/spots.json");
 
     populateCompanies();
+    attachHandlers();
 
     setStatus("Ready. Choose a company, then enter a Spot ID.");
-    $("navBtn").disabled = true;
+    clearSelection();
 
-    $("findBtn").addEventListener("click", () => {
-      const companyId = $("companySelect").value;
-      const spotId = $("spotInput").value;
-
-      const spot = findSpot(companyId, spotId);
-      if (!spot) {
-        selectedSpot = null;
-        $("navBtn").disabled = true;
-        setStatus(`Not found: ${normalize(spotId)} for ${companyId}. Check the ID.`);
-        return;
-      }
-
-      selectedSpot = spot;
-      $("navBtn").disabled = false;
-
-      setStatus(`Found ${spot.id} (${companyId}). Tap Navigate to open Maps.`);
-      ensureMap(spot.lat, spot.lng);
-    });
-
-    $("navBtn").addEventListener("click", () => {
-      if (!selectedSpot) return;
-      openNativeNavigation(selectedSpot.lat, selectedSpot.lng);
-    });
-
+    const url = getUrlParams();
+    if (url.spot) {
+      $("spotInput").value = url.spot;
+      $("findBtn").click();
+    }
   } catch (e) {
     console.error(e);
     setStatus(`Error: ${e.message}`);
