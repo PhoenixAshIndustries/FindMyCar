@@ -1,5 +1,9 @@
 {
-  "enabledCompanies": ["enterprise", "national", "alamo"],
+  "enabledCompanies": [
+    "enterprise",
+    "national",
+    "alamo"
+  ],
   "labels": {
     "enterprise": "Enterprise",
     "national": "National",
