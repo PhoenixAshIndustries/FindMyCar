@@ -2,13 +2,20 @@
   "enabledCompanies": [
     "enterprise",
     "national",
-    "alamo"
+    "alamo",
+    "avis",
+    "budget",
+    "hertz",
+    "dollar"
   ],
   "labels": {
     "enterprise": "Enterprise",
     "national": "National",
-    "alamo": "Alamo"
+    "alamo": "Alamo",
+    "avis": "Avis",
+    "budget": "Budget",
+    "hertz": "Hertz",
+    "dollar": "Dollar"
   },
-  "defaultCompany": "enterprise",
-  "spotIdFormatHint": "Enter a stall number like 48, or SPOT-048"
+  "defaultCompany": "enterprise"
 }
