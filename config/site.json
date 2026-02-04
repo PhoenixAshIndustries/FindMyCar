@@ -1,19 +1,19 @@
 {
   "enabledCompanies": [
+    "budget",
+    "avis",
     "enterprise",
     "national",
     "alamo",
-    "avis",
-    "budget",
     "hertz",
     "dollar"
   ],
   "labels": {
+    "budget": "Budget",
+    "avis": "Avis",
     "enterprise": "Enterprise",
     "national": "National",
     "alamo": "Alamo",
-    "avis": "Avis",
-    "budget": "Budget",
     "hertz": "Hertz",
     "dollar": "Dollar"
   },
