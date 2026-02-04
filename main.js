@@ -119,8 +119,11 @@ function attachHandlers(){
     btn.addEventListener("click", () => appendDigit(btn.getAttribute("data-digit")));
   });
   $("backBtn").addEventListener("click", backspace);
+  $("backBtn").addEventListener("touchend", (e) => { e.preventDefault(); backspace(); }, { passive: false });
   $("clearBtn").addEventListener("click", clearAll);
+  $("clearBtn").addEventListener("touchend", (e) => { e.preventDefault(); clearAll(); }, { passive: false });
   $("goBtn").addEventListener("click", handleFindMyCar);
+  $("goBtn").addEventListener("touchend", (e) => { e.preventDefault(); handleFindMyCar(); }, { passive: false });
 
   // allow physical keyboard too
   window.addEventListener("keydown", (e) => {
