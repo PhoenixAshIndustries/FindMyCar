@@ -85,6 +85,8 @@
       gap: 10px;
     }
     .key{
+      touch-action: manipulation;
+      -ms-touch-action: manipulation;
       padding: 16px 0;
       border-radius: 16px;
       border: 1px solid var(--border);
@@ -95,6 +97,8 @@
       box-shadow: 0 6px 12px rgba(15,23,42,.06);
       user-select:none;
       -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
     }
     .key:active{ transform: translateY(1px); }
     .key.secondary{
