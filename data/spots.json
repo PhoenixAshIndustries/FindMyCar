@@ -1,1807 +1,2773 @@
 [
   {
-    "id": "SPOT-001",
-    "company": "enterprise",
+    "id": "BUDGET-001",
+    "company": "budget",
+    "number": 1,
     "lat": 42.367788,
     "lng": -122.873899
   },
   {
-    "id": "SPOT-002",
-    "company": "enterprise",
+    "id": "BUDGET-002",
+    "company": "budget",
+    "number": 2,
     "lat": 42.367798,
     "lng": -122.873909
   },
   {
-    "id": "SPOT-003",
-    "company": "enterprise",
+    "id": "BUDGET-003",
+    "company": "budget",
+    "number": 3,
     "lat": 42.367808,
     "lng": -122.873919
   },
   {
-    "id": "SPOT-004",
-    "company": "enterprise",
+    "id": "BUDGET-004",
+    "company": "budget",
+    "number": 4,
     "lat": 42.367818,
     "lng": -122.873929
   },
   {
-    "id": "SPOT-005",
-    "company": "enterprise",
+    "id": "AVIS-005",
+    "company": "avis",
+    "number": 5,
     "lat": 42.367828,
     "lng": -122.873939
   },
   {
-    "id": "SPOT-006",
-    "company": "enterprise",
+    "id": "AVIS-006",
+    "company": "avis",
+    "number": 6,
     "lat": 42.367838,
     "lng": -122.873949
   },
   {
-    "id": "SPOT-007",
-    "company": "enterprise",
+    "id": "AVIS-007",
+    "company": "avis",
+    "number": 7,
     "lat": 42.367848,
     "lng": -122.873959
   },
   {
-    "id": "SPOT-008",
-    "company": "enterprise",
+    "id": "AVIS-008",
+    "company": "avis",
+    "number": 8,
     "lat": 42.367858,
     "lng": -122.873969
   },
   {
-    "id": "SPOT-009",
+    "id": "ENTERPRISE-009",
     "company": "enterprise",
+    "number": 9,
     "lat": 42.367868,
     "lng": -122.873979
   },
   {
-    "id": "SPOT-010",
+    "id": "ENTERPRISE-010",
     "company": "enterprise",
+    "number": 10,
     "lat": 42.367878,
     "lng": -122.873989
   },
   {
-    "id": "SPOT-011",
+    "id": "ENTERPRISE-011",
     "company": "enterprise",
+    "number": 11,
     "lat": 42.367888,
     "lng": -122.873999
   },
   {
-    "id": "SPOT-012",
+    "id": "ENTERPRISE-012",
     "company": "enterprise",
+    "number": 12,
     "lat": 42.367898,
     "lng": -122.874009
   },
   {
-    "id": "SPOT-013",
+    "id": "ENTERPRISE-013",
     "company": "enterprise",
+    "number": 13,
     "lat": 42.367908,
     "lng": -122.874019
   },
   {
-    "id": "SPOT-014",
+    "id": "ENTERPRISE-014",
     "company": "enterprise",
+    "number": 14,
     "lat": 42.367918,
     "lng": -122.874029
   },
   {
-    "id": "SPOT-015",
+    "id": "ENTERPRISE-015",
     "company": "enterprise",
+    "number": 15,
     "lat": 42.367928,
     "lng": -122.874039
   },
   {
-    "id": "SPOT-016",
+    "id": "ENTERPRISE-016",
     "company": "enterprise",
+    "number": 16,
     "lat": 42.367938,
     "lng": -122.874049
   },
   {
-    "id": "SPOT-017",
+    "id": "ENTERPRISE-017",
     "company": "enterprise",
+    "number": 17,
     "lat": 42.367948,
     "lng": -122.874059
   },
   {
-    "id": "SPOT-018",
+    "id": "ENTERPRISE-018",
     "company": "enterprise",
+    "number": 18,
     "lat": 42.367958,
     "lng": -122.874069
   },
   {
-    "id": "SPOT-019",
+    "id": "ENTERPRISE-019",
     "company": "enterprise",
+    "number": 19,
     "lat": 42.367968,
     "lng": -122.874079
   },
   {
-    "id": "SPOT-020",
+    "id": "ENTERPRISE-020",
     "company": "enterprise",
+    "number": 20,
     "lat": 42.367978,
     "lng": -122.874089
   },
   {
-    "id": "SPOT-021",
+    "id": "ENTERPRISE-021",
     "company": "enterprise",
+    "number": 21,
     "lat": 42.367988,
     "lng": -122.874099
   },
   {
-    "id": "SPOT-022",
+    "id": "ENTERPRISE-022",
     "company": "enterprise",
+    "number": 22,
     "lat": 42.367998,
     "lng": -122.874109
   },
   {
-    "id": "SPOT-023",
+    "id": "ENTERPRISE-023",
     "company": "enterprise",
+    "number": 23,
     "lat": 42.368008,
     "lng": -122.874119
   },
   {
-    "id": "SPOT-024",
+    "id": "ENTERPRISE-024",
     "company": "enterprise",
+    "number": 24,
     "lat": 42.368018,
     "lng": -122.874129
   },
   {
-    "id": "SPOT-025",
+    "id": "ENTERPRISE-025",
     "company": "enterprise",
+    "number": 25,
     "lat": 42.368028,
     "lng": -122.874139
   },
   {
-    "id": "SPOT-026",
+    "id": "ENTERPRISE-026",
     "company": "enterprise",
+    "number": 26,
     "lat": 42.368038,
     "lng": -122.874149
   },
   {
-    "id": "SPOT-027",
+    "id": "ENTERPRISE-027",
     "company": "enterprise",
+    "number": 27,
     "lat": 42.368048,
     "lng": -122.874159
   },
   {
-    "id": "SPOT-028",
+    "id": "ENTERPRISE-028",
     "company": "enterprise",
+    "number": 28,
     "lat": 42.368058,
     "lng": -122.874169
   },
   {
-    "id": "SPOT-029",
+    "id": "ENTERPRISE-029",
     "company": "enterprise",
+    "number": 29,
     "lat": 42.368068,
     "lng": -122.874179
   },
   {
-    "id": "SPOT-030",
+    "id": "ENTERPRISE-030",
     "company": "enterprise",
+    "number": 30,
     "lat": 42.368078,
     "lng": -122.874189
   },
   {
-    "id": "SPOT-031",
+    "id": "ENTERPRISE-031",
     "company": "enterprise",
+    "number": 31,
     "lat": 42.368088,
     "lng": -122.874199
   },
   {
-    "id": "SPOT-032",
+    "id": "ENTERPRISE-032",
     "company": "enterprise",
+    "number": 32,
     "lat": 42.368098,
     "lng": -122.874209
   },
   {
-    "id": "SPOT-033",
+    "id": "ENTERPRISE-033",
     "company": "enterprise",
+    "number": 33,
     "lat": 42.368108,
     "lng": -122.874219
   },
   {
-    "id": "SPOT-034",
+    "id": "ENTERPRISE-034",
     "company": "enterprise",
+    "number": 34,
     "lat": 42.368118,
     "lng": -122.874229
   },
   {
-    "id": "SPOT-035",
+    "id": "ENTERPRISE-035",
     "company": "enterprise",
+    "number": 35,
     "lat": 42.368128,
     "lng": -122.874239
   },
   {
-    "id": "SPOT-036",
+    "id": "ENTERPRISE-036",
     "company": "enterprise",
+    "number": 36,
     "lat": 42.368138,
     "lng": -122.874249
   },
   {
-    "id": "SPOT-037",
+    "id": "ENTERPRISE-037",
     "company": "enterprise",
+    "number": 37,
     "lat": 42.368148,
     "lng": -122.874259
   },
   {
-    "id": "SPOT-038",
+    "id": "ENTERPRISE-038",
     "company": "enterprise",
+    "number": 38,
     "lat": 42.368158,
     "lng": -122.874269
   },
   {
-    "id": "SPOT-039",
+    "id": "ENTERPRISE-039",
     "company": "enterprise",
+    "number": 39,
     "lat": 42.368168,
     "lng": -122.874279
   },
   {
-    "id": "SPOT-040",
+    "id": "ENTERPRISE-040",
     "company": "enterprise",
+    "number": 40,
     "lat": 42.368178,
     "lng": -122.874289
   },
   {
-    "id": "SPOT-041",
+    "id": "ENTERPRISE-041",
     "company": "enterprise",
+    "number": 41,
     "lat": 42.368188,
     "lng": -122.874299
   },
   {
-    "id": "SPOT-042",
+    "id": "ENTERPRISE-042",
     "company": "enterprise",
+    "number": 42,
     "lat": 42.368198,
     "lng": -122.874309
   },
   {
-    "id": "SPOT-043",
+    "id": "ENTERPRISE-043",
     "company": "enterprise",
+    "number": 43,
     "lat": 42.368208,
     "lng": -122.874319
   },
   {
-    "id": "SPOT-044",
+    "id": "ENTERPRISE-044",
     "company": "enterprise",
+    "number": 44,
     "lat": 42.368218,
     "lng": -122.874329
   },
   {
-    "id": "SPOT-045",
+    "id": "ENTERPRISE-045",
     "company": "enterprise",
+    "number": 45,
     "lat": 42.368228,
     "lng": -122.874339
   },
   {
-    "id": "SPOT-046",
+    "id": "ENTERPRISE-046",
     "company": "enterprise",
+    "number": 46,
     "lat": 42.368238,
     "lng": -122.874349
   },
   {
-    "id": "SPOT-047",
+    "id": "ENTERPRISE-047",
     "company": "enterprise",
+    "number": 47,
     "lat": 42.368248,
     "lng": -122.874359
   },
   {
-    "id": "SPOT-048",
-    "company": "enterprise",
+    "id": "NATIONAL-048",
+    "company": "national",
+    "number": 48,
     "lat": 42.368258,
     "lng": -122.874369
   },
   {
-    "id": "SPOT-049",
-    "company": "enterprise",
+    "id": "ALAMO-048",
+    "company": "alamo",
+    "number": 48,
+    "lat": 42.368258,
+    "lng": -122.874369
+  },
+  {
+    "id": "NATIONAL-049",
+    "company": "national",
+    "number": 49,
     "lat": 42.368268,
     "lng": -122.874379
   },
   {
-    "id": "SPOT-050",
-    "company": "enterprise",
+    "id": "ALAMO-049",
+    "company": "alamo",
+    "number": 49,
+    "lat": 42.368268,
+    "lng": -122.874379
+  },
+  {
+    "id": "NATIONAL-050",
+    "company": "national",
+    "number": 50,
     "lat": 42.368278,
     "lng": -122.874389
   },
   {
-    "id": "SPOT-051",
-    "company": "enterprise",
+    "id": "ALAMO-050",
+    "company": "alamo",
+    "number": 50,
+    "lat": 42.368278,
+    "lng": -122.874389
+  },
+  {
+    "id": "NATIONAL-051",
+    "company": "national",
+    "number": 51,
     "lat": 42.368288,
     "lng": -122.874399
   },
   {
-    "id": "SPOT-052",
-    "company": "enterprise",
+    "id": "ALAMO-051",
+    "company": "alamo",
+    "number": 51,
+    "lat": 42.368288,
+    "lng": -122.874399
+  },
+  {
+    "id": "NATIONAL-052",
+    "company": "national",
+    "number": 52,
     "lat": 42.368298,
     "lng": -122.874409
   },
   {
-    "id": "SPOT-053",
-    "company": "enterprise",
+    "id": "ALAMO-052",
+    "company": "alamo",
+    "number": 52,
+    "lat": 42.368298,
+    "lng": -122.874409
+  },
+  {
+    "id": "NATIONAL-053",
+    "company": "national",
+    "number": 53,
     "lat": 42.368308,
     "lng": -122.874419
   },
   {
-    "id": "SPOT-054",
-    "company": "enterprise",
+    "id": "ALAMO-053",
+    "company": "alamo",
+    "number": 53,
+    "lat": 42.368308,
+    "lng": -122.874419
+  },
+  {
+    "id": "NATIONAL-054",
+    "company": "national",
+    "number": 54,
     "lat": 42.368318,
     "lng": -122.874429
   },
   {
-    "id": "SPOT-055",
-    "company": "enterprise",
+    "id": "ALAMO-054",
+    "company": "alamo",
+    "number": 54,
+    "lat": 42.368318,
+    "lng": -122.874429
+  },
+  {
+    "id": "NATIONAL-055",
+    "company": "national",
+    "number": 55,
     "lat": 42.368328,
     "lng": -122.874439
   },
   {
-    "id": "SPOT-056",
-    "company": "enterprise",
+    "id": "ALAMO-055",
+    "company": "alamo",
+    "number": 55,
+    "lat": 42.368328,
+    "lng": -122.874439
+  },
+  {
+    "id": "NATIONAL-056",
+    "company": "national",
+    "number": 56,
     "lat": 42.368338,
     "lng": -122.874449
   },
   {
-    "id": "SPOT-057",
-    "company": "enterprise",
+    "id": "ALAMO-056",
+    "company": "alamo",
+    "number": 56,
+    "lat": 42.368338,
+    "lng": -122.874449
+  },
+  {
+    "id": "NATIONAL-057",
+    "company": "national",
+    "number": 57,
     "lat": 42.368348,
     "lng": -122.874459
   },
   {
-    "id": "SPOT-058",
-    "company": "enterprise",
+    "id": "ALAMO-057",
+    "company": "alamo",
+    "number": 57,
+    "lat": 42.368348,
+    "lng": -122.874459
+  },
+  {
+    "id": "NATIONAL-058",
+    "company": "national",
+    "number": 58,
     "lat": 42.368358,
     "lng": -122.874469
   },
   {
-    "id": "SPOT-059",
-    "company": "enterprise",
+    "id": "ALAMO-058",
+    "company": "alamo",
+    "number": 58,
+    "lat": 42.368358,
+    "lng": -122.874469
+  },
+  {
+    "id": "NATIONAL-059",
+    "company": "national",
+    "number": 59,
     "lat": 42.368368,
     "lng": -122.874479
   },
   {
-    "id": "SPOT-060",
-    "company": "enterprise",
+    "id": "ALAMO-059",
+    "company": "alamo",
+    "number": 59,
+    "lat": 42.368368,
+    "lng": -122.874479
+  },
+  {
+    "id": "NATIONAL-060",
+    "company": "national",
+    "number": 60,
     "lat": 42.368378,
     "lng": -122.874489
   },
   {
-    "id": "SPOT-061",
-    "company": "enterprise",
+    "id": "ALAMO-060",
+    "company": "alamo",
+    "number": 60,
+    "lat": 42.368378,
+    "lng": -122.874489
+  },
+  {
+    "id": "NATIONAL-061",
+    "company": "national",
+    "number": 61,
     "lat": 42.368388,
     "lng": -122.874499
   },
   {
-    "id": "SPOT-062",
-    "company": "enterprise",
+    "id": "ALAMO-061",
+    "company": "alamo",
+    "number": 61,
+    "lat": 42.368388,
+    "lng": -122.874499
+  },
+  {
+    "id": "NATIONAL-062",
+    "company": "national",
+    "number": 62,
     "lat": 42.368398,
     "lng": -122.874509
   },
   {
-    "id": "SPOT-063",
-    "company": "enterprise",
+    "id": "ALAMO-062",
+    "company": "alamo",
+    "number": 62,
+    "lat": 42.368398,
+    "lng": -122.874509
+  },
+  {
+    "id": "NATIONAL-063",
+    "company": "national",
+    "number": 63,
     "lat": 42.368408,
     "lng": -122.874519
   },
   {
-    "id": "SPOT-064",
-    "company": "enterprise",
+    "id": "ALAMO-063",
+    "company": "alamo",
+    "number": 63,
+    "lat": 42.368408,
+    "lng": -122.874519
+  },
+  {
+    "id": "NATIONAL-064",
+    "company": "national",
+    "number": 64,
     "lat": 42.368418,
     "lng": -122.874529
   },
   {
-    "id": "SPOT-065",
-    "company": "enterprise",
+    "id": "ALAMO-064",
+    "company": "alamo",
+    "number": 64,
+    "lat": 42.368418,
+    "lng": -122.874529
+  },
+  {
+    "id": "NATIONAL-065",
+    "company": "national",
+    "number": 65,
     "lat": 42.368428,
     "lng": -122.874539
   },
   {
-    "id": "SPOT-066",
-    "company": "enterprise",
+    "id": "ALAMO-065",
+    "company": "alamo",
+    "number": 65,
+    "lat": 42.368428,
+    "lng": -122.874539
+  },
+  {
+    "id": "NATIONAL-066",
+    "company": "national",
+    "number": 66,
     "lat": 42.368438,
     "lng": -122.874549
   },
   {
-    "id": "SPOT-067",
-    "company": "enterprise",
+    "id": "ALAMO-066",
+    "company": "alamo",
+    "number": 66,
+    "lat": 42.368438,
+    "lng": -122.874549
+  },
+  {
+    "id": "NATIONAL-067",
+    "company": "national",
+    "number": 67,
     "lat": 42.368448,
     "lng": -122.874559
   },
   {
-    "id": "SPOT-068",
-    "company": "enterprise",
+    "id": "ALAMO-067",
+    "company": "alamo",
+    "number": 67,
+    "lat": 42.368448,
+    "lng": -122.874559
+  },
+  {
+    "id": "NATIONAL-068",
+    "company": "national",
+    "number": 68,
     "lat": 42.368458,
     "lng": -122.874569
   },
   {
-    "id": "SPOT-069",
-    "company": "enterprise",
+    "id": "ALAMO-068",
+    "company": "alamo",
+    "number": 68,
+    "lat": 42.368458,
+    "lng": -122.874569
+  },
+  {
+    "id": "NATIONAL-069",
+    "company": "national",
+    "number": 69,
     "lat": 42.368468,
     "lng": -122.874579
   },
   {
-    "id": "SPOT-070",
-    "company": "enterprise",
+    "id": "ALAMO-069",
+    "company": "alamo",
+    "number": 69,
+    "lat": 42.368468,
+    "lng": -122.874579
+  },
+  {
+    "id": "NATIONAL-070",
+    "company": "national",
+    "number": 70,
     "lat": 42.368478,
     "lng": -122.874589
   },
   {
-    "id": "SPOT-071",
-    "company": "enterprise",
+    "id": "ALAMO-070",
+    "company": "alamo",
+    "number": 70,
+    "lat": 42.368478,
+    "lng": -122.874589
+  },
+  {
+    "id": "NATIONAL-071",
+    "company": "national",
+    "number": 71,
     "lat": 42.368488,
     "lng": -122.874599
   },
   {
-    "id": "SPOT-072",
-    "company": "enterprise",
+    "id": "ALAMO-071",
+    "company": "alamo",
+    "number": 71,
+    "lat": 42.368488,
+    "lng": -122.874599
+  },
+  {
+    "id": "NATIONAL-072",
+    "company": "national",
+    "number": 72,
     "lat": 42.368498,
     "lng": -122.874609
   },
   {
-    "id": "SPOT-073",
-    "company": "enterprise",
+    "id": "ALAMO-072",
+    "company": "alamo",
+    "number": 72,
+    "lat": 42.368498,
+    "lng": -122.874609
+  },
+  {
+    "id": "NATIONAL-073",
+    "company": "national",
+    "number": 73,
     "lat": 42.368508,
     "lng": -122.874619
   },
   {
-    "id": "SPOT-074",
-    "company": "enterprise",
+    "id": "ALAMO-073",
+    "company": "alamo",
+    "number": 73,
+    "lat": 42.368508,
+    "lng": -122.874619
+  },
+  {
+    "id": "NATIONAL-074",
+    "company": "national",
+    "number": 74,
     "lat": 42.368518,
     "lng": -122.874629
   },
   {
-    "id": "SPOT-075",
-    "company": "enterprise",
+    "id": "ALAMO-074",
+    "company": "alamo",
+    "number": 74,
+    "lat": 42.368518,
+    "lng": -122.874629
+  },
+  {
+    "id": "NATIONAL-075",
+    "company": "national",
+    "number": 75,
     "lat": 42.368528,
     "lng": -122.874639
   },
   {
-    "id": "SPOT-076",
-    "company": "enterprise",
+    "id": "ALAMO-075",
+    "company": "alamo",
+    "number": 75,
+    "lat": 42.368528,
+    "lng": -122.874639
+  },
+  {
+    "id": "NATIONAL-076",
+    "company": "national",
+    "number": 76,
     "lat": 42.368538,
     "lng": -122.874649
   },
   {
-    "id": "SPOT-077",
-    "company": "enterprise",
+    "id": "ALAMO-076",
+    "company": "alamo",
+    "number": 76,
+    "lat": 42.368538,
+    "lng": -122.874649
+  },
+  {
+    "id": "NATIONAL-077",
+    "company": "national",
+    "number": 77,
     "lat": 42.368548,
     "lng": -122.874659
   },
   {
-    "id": "SPOT-078",
-    "company": "enterprise",
+    "id": "ALAMO-077",
+    "company": "alamo",
+    "number": 77,
+    "lat": 42.368548,
+    "lng": -122.874659
+  },
+  {
+    "id": "NATIONAL-078",
+    "company": "national",
+    "number": 78,
     "lat": 42.368558,
     "lng": -122.874669
   },
   {
-    "id": "SPOT-079",
-    "company": "enterprise",
+    "id": "ALAMO-078",
+    "company": "alamo",
+    "number": 78,
+    "lat": 42.368558,
+    "lng": -122.874669
+  },
+  {
+    "id": "NATIONAL-079",
+    "company": "national",
+    "number": 79,
     "lat": 42.368568,
     "lng": -122.874679
   },
   {
-    "id": "SPOT-080",
-    "company": "enterprise",
+    "id": "ALAMO-079",
+    "company": "alamo",
+    "number": 79,
+    "lat": 42.368568,
+    "lng": -122.874679
+  },
+  {
+    "id": "NATIONAL-080",
+    "company": "national",
+    "number": 80,
     "lat": 42.368578,
     "lng": -122.874689
   },
   {
-    "id": "SPOT-081",
-    "company": "enterprise",
+    "id": "ALAMO-080",
+    "company": "alamo",
+    "number": 80,
+    "lat": 42.368578,
+    "lng": -122.874689
+  },
+  {
+    "id": "NATIONAL-081",
+    "company": "national",
+    "number": 81,
     "lat": 42.368588,
     "lng": -122.874699
   },
   {
-    "id": "SPOT-082",
-    "company": "enterprise",
+    "id": "ALAMO-081",
+    "company": "alamo",
+    "number": 81,
+    "lat": 42.368588,
+    "lng": -122.874699
+  },
+  {
+    "id": "NATIONAL-082",
+    "company": "national",
+    "number": 82,
     "lat": 42.368598,
     "lng": -122.874709
   },
   {
-    "id": "SPOT-083",
-    "company": "enterprise",
+    "id": "ALAMO-082",
+    "company": "alamo",
+    "number": 82,
+    "lat": 42.368598,
+    "lng": -122.874709
+  },
+  {
+    "id": "NATIONAL-083",
+    "company": "national",
+    "number": 83,
     "lat": 42.368608,
     "lng": -122.874719
   },
   {
-    "id": "SPOT-084",
-    "company": "enterprise",
+    "id": "ALAMO-083",
+    "company": "alamo",
+    "number": 83,
+    "lat": 42.368608,
+    "lng": -122.874719
+  },
+  {
+    "id": "NATIONAL-084",
+    "company": "national",
+    "number": 84,
     "lat": 42.368618,
     "lng": -122.874729
   },
   {
-    "id": "SPOT-085",
-    "company": "enterprise",
+    "id": "ALAMO-084",
+    "company": "alamo",
+    "number": 84,
+    "lat": 42.368618,
+    "lng": -122.874729
+  },
+  {
+    "id": "NATIONAL-085",
+    "company": "national",
+    "number": 85,
     "lat": 42.368628,
     "lng": -122.874739
   },
   {
-    "id": "SPOT-086",
-    "company": "enterprise",
+    "id": "ALAMO-085",
+    "company": "alamo",
+    "number": 85,
+    "lat": 42.368628,
+    "lng": -122.874739
+  },
+  {
+    "id": "NATIONAL-086",
+    "company": "national",
+    "number": 86,
     "lat": 42.368638,
     "lng": -122.874749
   },
   {
-    "id": "SPOT-087",
-    "company": "enterprise",
+    "id": "ALAMO-086",
+    "company": "alamo",
+    "number": 86,
+    "lat": 42.368638,
+    "lng": -122.874749
+  },
+  {
+    "id": "NATIONAL-087",
+    "company": "national",
+    "number": 87,
     "lat": 42.368648,
     "lng": -122.874759
   },
   {
-    "id": "SPOT-088",
-    "company": "enterprise",
+    "id": "ALAMO-087",
+    "company": "alamo",
+    "number": 87,
+    "lat": 42.368648,
+    "lng": -122.874759
+  },
+  {
+    "id": "NATIONAL-088",
+    "company": "national",
+    "number": 88,
     "lat": 42.368658,
     "lng": -122.874769
   },
   {
-    "id": "SPOT-089",
-    "company": "enterprise",
+    "id": "ALAMO-088",
+    "company": "alamo",
+    "number": 88,
+    "lat": 42.368658,
+    "lng": -122.874769
+  },
+  {
+    "id": "NATIONAL-089",
+    "company": "national",
+    "number": 89,
     "lat": 42.368668,
     "lng": -122.874779
   },
   {
-    "id": "SPOT-090",
-    "company": "enterprise",
+    "id": "ALAMO-089",
+    "company": "alamo",
+    "number": 89,
+    "lat": 42.368668,
+    "lng": -122.874779
+  },
+  {
+    "id": "NATIONAL-090",
+    "company": "national",
+    "number": 90,
     "lat": 42.368678,
     "lng": -122.874789
   },
   {
-    "id": "SPOT-091",
-    "company": "enterprise",
+    "id": "ALAMO-090",
+    "company": "alamo",
+    "number": 90,
+    "lat": 42.368678,
+    "lng": -122.874789
+  },
+  {
+    "id": "NATIONAL-091",
+    "company": "national",
+    "number": 91,
     "lat": 42.368688,
     "lng": -122.874799
   },
   {
-    "id": "SPOT-092",
-    "company": "enterprise",
+    "id": "ALAMO-091",
+    "company": "alamo",
+    "number": 91,
+    "lat": 42.368688,
+    "lng": -122.874799
+  },
+  {
+    "id": "NATIONAL-092",
+    "company": "national",
+    "number": 92,
     "lat": 42.368698,
     "lng": -122.874809
   },
   {
-    "id": "SPOT-093",
-    "company": "enterprise",
+    "id": "ALAMO-092",
+    "company": "alamo",
+    "number": 92,
+    "lat": 42.368698,
+    "lng": -122.874809
+  },
+  {
+    "id": "AVIS-093",
+    "company": "avis",
+    "number": 93,
     "lat": 42.368708,
     "lng": -122.874819
   },
   {
-    "id": "SPOT-094",
-    "company": "enterprise",
+    "id": "AVIS-094",
+    "company": "avis",
+    "number": 94,
     "lat": 42.368718,
     "lng": -122.874829
   },
   {
-    "id": "SPOT-095",
-    "company": "enterprise",
+    "id": "AVIS-095",
+    "company": "avis",
+    "number": 95,
     "lat": 42.368728,
     "lng": -122.874839
   },
   {
-    "id": "SPOT-096",
-    "company": "enterprise",
+    "id": "AVIS-096",
+    "company": "avis",
+    "number": 96,
     "lat": 42.368738,
     "lng": -122.874849
   },
   {
-    "id": "SPOT-097",
-    "company": "enterprise",
+    "id": "AVIS-097",
+    "company": "avis",
+    "number": 97,
     "lat": 42.368748,
     "lng": -122.874859
   },
   {
-    "id": "SPOT-098",
-    "company": "enterprise",
+    "id": "AVIS-098",
+    "company": "avis",
+    "number": 98,
     "lat": 42.368758,
     "lng": -122.874869
   },
   {
-    "id": "SPOT-099",
-    "company": "enterprise",
+    "id": "AVIS-099",
+    "company": "avis",
+    "number": 99,
     "lat": 42.368768,
     "lng": -122.874879
   },
   {
-    "id": "SPOT-100",
-    "company": "enterprise",
+    "id": "AVIS-100",
+    "company": "avis",
+    "number": 100,
     "lat": 42.368778,
     "lng": -122.874889
   },
   {
-    "id": "SPOT-101",
-    "company": "enterprise",
+    "id": "AVIS-101",
+    "company": "avis",
+    "number": 101,
     "lat": 42.368788,
     "lng": -122.874899
   },
   {
-    "id": "SPOT-102",
-    "company": "enterprise",
+    "id": "AVIS-102",
+    "company": "avis",
+    "number": 102,
     "lat": 42.368798,
     "lng": -122.874909
   },
   {
-    "id": "SPOT-103",
-    "company": "enterprise",
+    "id": "AVIS-103",
+    "company": "avis",
+    "number": 103,
     "lat": 42.368808,
     "lng": -122.874919
   },
   {
-    "id": "SPOT-104",
-    "company": "enterprise",
+    "id": "AVIS-104",
+    "company": "avis",
+    "number": 104,
     "lat": 42.368818,
     "lng": -122.874929
   },
   {
-    "id": "SPOT-105",
-    "company": "enterprise",
+    "id": "AVIS-105",
+    "company": "avis",
+    "number": 105,
     "lat": 42.368828,
     "lng": -122.874939
   },
   {
-    "id": "SPOT-106",
-    "company": "enterprise",
+    "id": "AVIS-106",
+    "company": "avis",
+    "number": 106,
     "lat": 42.368838,
     "lng": -122.874949
   },
   {
-    "id": "SPOT-107",
-    "company": "enterprise",
+    "id": "AVIS-107",
+    "company": "avis",
+    "number": 107,
     "lat": 42.368848,
     "lng": -122.874959
   },
   {
-    "id": "SPOT-108",
-    "company": "enterprise",
+    "id": "AVIS-108",
+    "company": "avis",
+    "number": 108,
     "lat": 42.368858,
     "lng": -122.874969
   },
   {
-    "id": "SPOT-109",
-    "company": "enterprise",
+    "id": "AVIS-109",
+    "company": "avis",
+    "number": 109,
     "lat": 42.368868,
     "lng": -122.874979
   },
   {
-    "id": "SPOT-110",
-    "company": "enterprise",
+    "id": "AVIS-110",
+    "company": "avis",
+    "number": 110,
     "lat": 42.368878,
     "lng": -122.874989
   },
   {
-    "id": "SPOT-111",
-    "company": "enterprise",
+    "id": "AVIS-111",
+    "company": "avis",
+    "number": 111,
     "lat": 42.368888,
     "lng": -122.874999
   },
   {
-    "id": "SPOT-112",
-    "company": "enterprise",
+    "id": "AVIS-112",
+    "company": "avis",
+    "number": 112,
     "lat": 42.368898,
     "lng": -122.875009
   },
   {
-    "id": "SPOT-113",
-    "company": "enterprise",
+    "id": "AVIS-113",
+    "company": "avis",
+    "number": 113,
     "lat": 42.368908,
     "lng": -122.875019
   },
   {
-    "id": "SPOT-114",
-    "company": "enterprise",
+    "id": "AVIS-114",
+    "company": "avis",
+    "number": 114,
     "lat": 42.368918,
     "lng": -122.875029
   },
   {
-    "id": "SPOT-115",
-    "company": "enterprise",
+    "id": "AVIS-115",
+    "company": "avis",
+    "number": 115,
     "lat": 42.368928,
     "lng": -122.875039
   },
   {
-    "id": "SPOT-116",
-    "company": "enterprise",
+    "id": "AVIS-116",
+    "company": "avis",
+    "number": 116,
     "lat": 42.368938,
     "lng": -122.875049
   },
   {
-    "id": "SPOT-117",
-    "company": "enterprise",
+    "id": "AVIS-117",
+    "company": "avis",
+    "number": 117,
     "lat": 42.368948,
     "lng": -122.875059
   },
   {
-    "id": "SPOT-118",
-    "company": "enterprise",
+    "id": "AVIS-118",
+    "company": "avis",
+    "number": 118,
     "lat": 42.368958,
     "lng": -122.875069
   },
   {
-    "id": "SPOT-119",
-    "company": "enterprise",
+    "id": "AVIS-119",
+    "company": "avis",
+    "number": 119,
     "lat": 42.368968,
     "lng": -122.875079
   },
   {
-    "id": "SPOT-120",
-    "company": "enterprise",
+    "id": "AVIS-120",
+    "company": "avis",
+    "number": 120,
     "lat": 42.368978,
     "lng": -122.875089
   },
   {
-    "id": "SPOT-121",
-    "company": "enterprise",
+    "id": "AVIS-121",
+    "company": "avis",
+    "number": 121,
     "lat": 42.368988,
     "lng": -122.875099
   },
   {
-    "id": "SPOT-122",
-    "company": "enterprise",
+    "id": "AVIS-122",
+    "company": "avis",
+    "number": 122,
     "lat": 42.368998,
     "lng": -122.875109
   },
   {
-    "id": "SPOT-123",
-    "company": "enterprise",
+    "id": "AVIS-123",
+    "company": "avis",
+    "number": 123,
     "lat": 42.369008,
     "lng": -122.875119
   },
   {
-    "id": "SPOT-124",
-    "company": "enterprise",
+    "id": "AVIS-124",
+    "company": "avis",
+    "number": 124,
     "lat": 42.369018,
     "lng": -122.875129
   },
   {
-    "id": "SPOT-125",
-    "company": "enterprise",
+    "id": "AVIS-125",
+    "company": "avis",
+    "number": 125,
     "lat": 42.369028,
     "lng": -122.875139
   },
   {
-    "id": "SPOT-126",
-    "company": "enterprise",
+    "id": "AVIS-126",
+    "company": "avis",
+    "number": 126,
     "lat": 42.369038,
     "lng": -122.875149
   },
   {
-    "id": "SPOT-127",
-    "company": "enterprise",
+    "id": "AVIS-127",
+    "company": "avis",
+    "number": 127,
     "lat": 42.369048,
     "lng": -122.875159
   },
   {
-    "id": "SPOT-128",
-    "company": "enterprise",
+    "id": "AVIS-128",
+    "company": "avis",
+    "number": 128,
     "lat": 42.369058,
     "lng": -122.875169
   },
   {
-    "id": "SPOT-129",
-    "company": "enterprise",
+    "id": "AVIS-129",
+    "company": "avis",
+    "number": 129,
     "lat": 42.369068,
     "lng": -122.875179
   },
   {
-    "id": "SPOT-130",
-    "company": "enterprise",
+    "id": "AVIS-130",
+    "company": "avis",
+    "number": 130,
     "lat": 42.369078,
     "lng": -122.875189
   },
   {
-    "id": "SPOT-131",
-    "company": "enterprise",
+    "id": "AVIS-131",
+    "company": "avis",
+    "number": 131,
     "lat": 42.369088,
     "lng": -122.875199
   },
   {
-    "id": "SPOT-132",
-    "company": "enterprise",
+    "id": "BUDGET-132",
+    "company": "budget",
+    "number": 132,
     "lat": 42.369098,
     "lng": -122.875209
   },
   {
-    "id": "SPOT-133",
-    "company": "enterprise",
+    "id": "BUDGET-133",
+    "company": "budget",
+    "number": 133,
     "lat": 42.369108,
     "lng": -122.875219
   },
   {
-    "id": "SPOT-134",
-    "company": "enterprise",
+    "id": "BUDGET-134",
+    "company": "budget",
+    "number": 134,
     "lat": 42.369118,
     "lng": -122.875229
   },
   {
-    "id": "SPOT-135",
-    "company": "enterprise",
+    "id": "BUDGET-135",
+    "company": "budget",
+    "number": 135,
     "lat": 42.369128,
     "lng": -122.875239
   },
   {
-    "id": "SPOT-136",
-    "company": "enterprise",
+    "id": "BUDGET-136",
+    "company": "budget",
+    "number": 136,
     "lat": 42.369138,
     "lng": -122.875249
   },
   {
-    "id": "SPOT-137",
-    "company": "enterprise",
+    "id": "BUDGET-137",
+    "company": "budget",
+    "number": 137,
     "lat": 42.369148,
     "lng": -122.875259
   },
   {
-    "id": "SPOT-138",
-    "company": "enterprise",
+    "id": "BUDGET-138",
+    "company": "budget",
+    "number": 138,
     "lat": 42.369158,
     "lng": -122.875269
   },
   {
-    "id": "SPOT-139",
-    "company": "enterprise",
+    "id": "BUDGET-139",
+    "company": "budget",
+    "number": 139,
     "lat": 42.369168,
     "lng": -122.875279
   },
   {
-    "id": "SPOT-140",
-    "company": "enterprise",
+    "id": "BUDGET-140",
+    "company": "budget",
+    "number": 140,
     "lat": 42.369178,
     "lng": -122.875289
   },
   {
-    "id": "SPOT-141",
-    "company": "enterprise",
+    "id": "BUDGET-141",
+    "company": "budget",
+    "number": 141,
     "lat": 42.369188,
     "lng": -122.875299
   },
   {
-    "id": "SPOT-142",
-    "company": "enterprise",
+    "id": "BUDGET-142",
+    "company": "budget",
+    "number": 142,
     "lat": 42.369198,
     "lng": -122.875309
   },
   {
-    "id": "SPOT-143",
-    "company": "enterprise",
+    "id": "BUDGET-143",
+    "company": "budget",
+    "number": 143,
     "lat": 42.369208,
     "lng": -122.875319
   },
   {
-    "id": "SPOT-144",
-    "company": "enterprise",
+    "id": "BUDGET-144",
+    "company": "budget",
+    "number": 144,
     "lat": 42.369218,
     "lng": -122.875329
   },
   {
-    "id": "SPOT-145",
-    "company": "enterprise",
+    "id": "BUDGET-145",
+    "company": "budget",
+    "number": 145,
     "lat": 42.369228,
     "lng": -122.875339
   },
   {
-    "id": "SPOT-146",
-    "company": "enterprise",
+    "id": "BUDGET-146",
+    "company": "budget",
+    "number": 146,
     "lat": 42.369238,
     "lng": -122.875349
   },
   {
-    "id": "SPOT-147",
-    "company": "enterprise",
+    "id": "BUDGET-147",
+    "company": "budget",
+    "number": 147,
     "lat": 42.369248,
     "lng": -122.875359
   },
   {
-    "id": "SPOT-148",
-    "company": "enterprise",
+    "id": "BUDGET-148",
+    "company": "budget",
+    "number": 148,
     "lat": 42.369258,
     "lng": -122.875369
   },
   {
-    "id": "SPOT-149",
-    "company": "enterprise",
+    "id": "BUDGET-149",
+    "company": "budget",
+    "number": 149,
     "lat": 42.369268,
     "lng": -122.875379
   },
   {
-    "id": "SPOT-150",
-    "company": "enterprise",
+    "id": "BUDGET-150",
+    "company": "budget",
+    "number": 150,
     "lat": 42.369278,
     "lng": -122.875389
   },
   {
-    "id": "SPOT-151",
-    "company": "enterprise",
+    "id": "BUDGET-151",
+    "company": "budget",
+    "number": 151,
     "lat": 42.369288,
     "lng": -122.875399
   },
   {
-    "id": "SPOT-152",
-    "company": "enterprise",
+    "id": "BUDGET-152",
+    "company": "budget",
+    "number": 152,
     "lat": 42.369298,
     "lng": -122.875409
   },
   {
-    "id": "SPOT-153",
-    "company": "enterprise",
+    "id": "BUDGET-153",
+    "company": "budget",
+    "number": 153,
     "lat": 42.369308,
     "lng": -122.875419
   },
   {
-    "id": "SPOT-154",
-    "company": "enterprise",
+    "id": "BUDGET-154",
+    "company": "budget",
+    "number": 154,
     "lat": 42.369318,
     "lng": -122.875429
   },
   {
-    "id": "SPOT-155",
-    "company": "enterprise",
+    "id": "BUDGET-155",
+    "company": "budget",
+    "number": 155,
     "lat": 42.369328,
     "lng": -122.875439
   },
   {
-    "id": "SPOT-156",
-    "company": "enterprise",
+    "id": "BUDGET-156",
+    "company": "budget",
+    "number": 156,
     "lat": 42.369338,
     "lng": -122.875449
   },
   {
-    "id": "SPOT-157",
-    "company": "enterprise",
+    "id": "BUDGET-157",
+    "company": "budget",
+    "number": 157,
     "lat": 42.369348,
     "lng": -122.875459
   },
   {
-    "id": "SPOT-158",
-    "company": "enterprise",
+    "id": "BUDGET-158",
+    "company": "budget",
+    "number": 158,
     "lat": 42.369358,
     "lng": -122.875469
   },
   {
-    "id": "SPOT-159",
-    "company": "enterprise",
+    "id": "BUDGET-159",
+    "company": "budget",
+    "number": 159,
     "lat": 42.369368,
     "lng": -122.875479
   },
   {
-    "id": "SPOT-160",
-    "company": "enterprise",
+    "id": "BUDGET-160",
+    "company": "budget",
+    "number": 160,
     "lat": 42.369378,
     "lng": -122.875489
   },
   {
-    "id": "SPOT-161",
-    "company": "enterprise",
+    "id": "BUDGET-161",
+    "company": "budget",
+    "number": 161,
     "lat": 42.369388,
     "lng": -122.875499
   },
   {
-    "id": "SPOT-162",
-    "company": "enterprise",
+    "id": "BUDGET-162",
+    "company": "budget",
+    "number": 162,
     "lat": 42.369398,
     "lng": -122.875509
   },
   {
-    "id": "SPOT-163",
-    "company": "enterprise",
+    "id": "BUDGET-163",
+    "company": "budget",
+    "number": 163,
     "lat": 42.369408,
     "lng": -122.875519
   },
   {
-    "id": "SPOT-164",
-    "company": "enterprise",
+    "id": "BUDGET-164",
+    "company": "budget",
+    "number": 164,
     "lat": 42.369418,
     "lng": -122.875529
   },
   {
-    "id": "SPOT-165",
-    "company": "enterprise",
+    "id": "BUDGET-165",
+    "company": "budget",
+    "number": 165,
     "lat": 42.369428,
     "lng": -122.875539
   },
   {
-    "id": "SPOT-166",
-    "company": "enterprise",
+    "id": "BUDGET-166",
+    "company": "budget",
+    "number": 166,
     "lat": 42.369438,
     "lng": -122.875549
   },
   {
-    "id": "SPOT-167",
-    "company": "enterprise",
+    "id": "BUDGET-167",
+    "company": "budget",
+    "number": 167,
     "lat": 42.369448,
     "lng": -122.875559
   },
   {
-    "id": "SPOT-168",
-    "company": "enterprise",
+    "id": "BUDGET-168",
+    "company": "budget",
+    "number": 168,
     "lat": 42.369458,
     "lng": -122.875569
   },
   {
-    "id": "SPOT-169",
-    "company": "enterprise",
+    "id": "BUDGET-169",
+    "company": "budget",
+    "number": 169,
     "lat": 42.369468,
     "lng": -122.875579
   },
   {
-    "id": "SPOT-170",
-    "company": "enterprise",
+    "id": "BUDGET-170",
+    "company": "budget",
+    "number": 170,
     "lat": 42.369478,
     "lng": -122.875589
   },
   {
-    "id": "SPOT-171",
-    "company": "enterprise",
+    "id": "BUDGET-171",
+    "company": "budget",
+    "number": 171,
     "lat": 42.369488,
     "lng": -122.875599
   },
   {
-    "id": "SPOT-172",
-    "company": "enterprise",
+    "id": "BUDGET-172",
+    "company": "budget",
+    "number": 172,
     "lat": 42.369498,
     "lng": -122.875609
   },
   {
-    "id": "SPOT-173",
-    "company": "enterprise",
+    "id": "BUDGET-173",
+    "company": "budget",
+    "number": 173,
     "lat": 42.369508,
     "lng": -122.875619
   },
   {
-    "id": "SPOT-174",
-    "company": "enterprise",
+    "id": "BUDGET-174",
+    "company": "budget",
+    "number": 174,
     "lat": 42.369518,
     "lng": -122.875629
   },
   {
-    "id": "SPOT-175",
-    "company": "enterprise",
+    "id": "BUDGET-175",
+    "company": "budget",
+    "number": 175,
     "lat": 42.369528,
     "lng": -122.875639
   },
   {
-    "id": "SPOT-176",
-    "company": "enterprise",
+    "id": "BUDGET-176",
+    "company": "budget",
+    "number": 176,
     "lat": 42.369538,
     "lng": -122.875649
   },
   {
-    "id": "SPOT-177",
-    "company": "enterprise",
+    "id": "BUDGET-177",
+    "company": "budget",
+    "number": 177,
     "lat": 42.369548,
     "lng": -122.875659
   },
   {
-    "id": "SPOT-178",
-    "company": "enterprise",
+    "id": "BUDGET-178",
+    "company": "budget",
+    "number": 178,
     "lat": 42.369558,
     "lng": -122.875669
   },
   {
-    "id": "SPOT-179",
-    "company": "enterprise",
+    "id": "BUDGET-179",
+    "company": "budget",
+    "number": 179,
     "lat": 42.369568,
     "lng": -122.875679
   },
   {
-    "id": "SPOT-180",
-    "company": "enterprise",
+    "id": "BUDGET-180",
+    "company": "budget",
+    "number": 180,
     "lat": 42.369578,
     "lng": -122.875689
   },
   {
-    "id": "SPOT-181",
-    "company": "enterprise",
+    "id": "BUDGET-181",
+    "company": "budget",
+    "number": 181,
     "lat": 42.369588,
     "lng": -122.875699
   },
   {
-    "id": "SPOT-182",
-    "company": "enterprise",
+    "id": "BUDGET-182",
+    "company": "budget",
+    "number": 182,
     "lat": 42.369598,
     "lng": -122.875709
   },
   {
-    "id": "SPOT-183",
-    "company": "enterprise",
+    "id": "BUDGET-183",
+    "company": "budget",
+    "number": 183,
     "lat": 42.369608,
     "lng": -122.875719
   },
   {
-    "id": "SPOT-184",
-    "company": "enterprise",
+    "id": "BUDGET-184",
+    "company": "budget",
+    "number": 184,
     "lat": 42.369618,
     "lng": -122.875729
   },
   {
-    "id": "SPOT-185",
-    "company": "enterprise",
+    "id": "BUDGET-185",
+    "company": "budget",
+    "number": 185,
     "lat": 42.369628,
     "lng": -122.875739
   },
   {
-    "id": "SPOT-186",
-    "company": "enterprise",
+    "id": "BUDGET-186",
+    "company": "budget",
+    "number": 186,
     "lat": 42.369638,
     "lng": -122.875749
   },
   {
-    "id": "SPOT-187",
-    "company": "enterprise",
+    "id": "BUDGET-187",
+    "company": "budget",
+    "number": 187,
     "lat": 42.369648,
     "lng": -122.875759
   },
   {
-    "id": "SPOT-188",
-    "company": "enterprise",
+    "id": "BUDGET-188",
+    "company": "budget",
+    "number": 188,
     "lat": 42.369658,
     "lng": -122.875769
   },
   {
-    "id": "SPOT-189",
-    "company": "enterprise",
+    "id": "BUDGET-189",
+    "company": "budget",
+    "number": 189,
     "lat": 42.369668,
     "lng": -122.875779
   },
   {
-    "id": "SPOT-190",
-    "company": "enterprise",
+    "id": "BUDGET-190",
+    "company": "budget",
+    "number": 190,
     "lat": 42.369678,
     "lng": -122.875789
   },
   {
-    "id": "SPOT-191",
-    "company": "enterprise",
+    "id": "BUDGET-191",
+    "company": "budget",
+    "number": 191,
     "lat": 42.369688,
     "lng": -122.875799
   },
   {
-    "id": "SPOT-192",
-    "company": "enterprise",
+    "id": "BUDGET-192",
+    "company": "budget",
+    "number": 192,
     "lat": 42.369698,
     "lng": -122.875809
   },
   {
-    "id": "SPOT-193",
-    "company": "enterprise",
+    "id": "BUDGET-193",
+    "company": "budget",
+    "number": 193,
     "lat": 42.369708,
     "lng": -122.875819
   },
   {
-    "id": "SPOT-194",
-    "company": "enterprise",
+    "id": "BUDGET-194",
+    "company": "budget",
+    "number": 194,
     "lat": 42.369718,
     "lng": -122.875829
   },
   {
-    "id": "SPOT-195",
-    "company": "enterprise",
+    "id": "BUDGET-195",
+    "company": "budget",
+    "number": 195,
     "lat": 42.369728,
     "lng": -122.875839
   },
   {
-    "id": "SPOT-196",
-    "company": "enterprise",
+    "id": "BUDGET-196",
+    "company": "budget",
+    "number": 196,
     "lat": 42.369738,
     "lng": -122.875849
   },
   {
-    "id": "SPOT-197",
-    "company": "enterprise",
+    "id": "BUDGET-197",
+    "company": "budget",
+    "number": 197,
     "lat": 42.369748,
     "lng": -122.875859
   },
   {
-    "id": "SPOT-198",
-    "company": "enterprise",
+    "id": "HERTZ-198",
+    "company": "hertz",
+    "number": 198,
     "lat": 42.369758,
     "lng": -122.875869
   },
   {
-    "id": "SPOT-199",
-    "company": "enterprise",
+    "id": "DOLLAR-198",
+    "company": "dollar",
+    "number": 198,
+    "lat": 42.369758,
+    "lng": -122.875869
+  },
+  {
+    "id": "HERTZ-199",
+    "company": "hertz",
+    "number": 199,
     "lat": 42.369768,
     "lng": -122.875879
   },
   {
-    "id": "SPOT-200",
-    "company": "enterprise",
+    "id": "DOLLAR-199",
+    "company": "dollar",
+    "number": 199,
+    "lat": 42.369768,
+    "lng": -122.875879
+  },
+  {
+    "id": "HERTZ-200",
+    "company": "hertz",
+    "number": 200,
     "lat": 42.369778,
     "lng": -122.875889
   },
   {
-    "id": "SPOT-201",
-    "company": "enterprise",
+    "id": "DOLLAR-200",
+    "company": "dollar",
+    "number": 200,
+    "lat": 42.369778,
+    "lng": -122.875889
+  },
+  {
+    "id": "HERTZ-201",
+    "company": "hertz",
+    "number": 201,
     "lat": 42.369788,
     "lng": -122.875899
   },
   {
-    "id": "SPOT-202",
-    "company": "enterprise",
+    "id": "DOLLAR-201",
+    "company": "dollar",
+    "number": 201,
+    "lat": 42.369788,
+    "lng": -122.875899
+  },
+  {
+    "id": "HERTZ-202",
+    "company": "hertz",
+    "number": 202,
     "lat": 42.369798,
     "lng": -122.875909
   },
   {
-    "id": "SPOT-203",
-    "company": "enterprise",
+    "id": "DOLLAR-202",
+    "company": "dollar",
+    "number": 202,
+    "lat": 42.369798,
+    "lng": -122.875909
+  },
+  {
+    "id": "HERTZ-203",
+    "company": "hertz",
+    "number": 203,
     "lat": 42.369808,
     "lng": -122.875919
   },
   {
-    "id": "SPOT-204",
-    "company": "enterprise",
+    "id": "DOLLAR-203",
+    "company": "dollar",
+    "number": 203,
+    "lat": 42.369808,
+    "lng": -122.875919
+  },
+  {
+    "id": "HERTZ-204",
+    "company": "hertz",
+    "number": 204,
     "lat": 42.369818,
     "lng": -122.875929
   },
   {
-    "id": "SPOT-205",
-    "company": "enterprise",
+    "id": "DOLLAR-204",
+    "company": "dollar",
+    "number": 204,
+    "lat": 42.369818,
+    "lng": -122.875929
+  },
+  {
+    "id": "HERTZ-205",
+    "company": "hertz",
+    "number": 205,
     "lat": 42.369828,
     "lng": -122.875939
   },
   {
-    "id": "SPOT-206",
-    "company": "enterprise",
+    "id": "DOLLAR-205",
+    "company": "dollar",
+    "number": 205,
+    "lat": 42.369828,
+    "lng": -122.875939
+  },
+  {
+    "id": "HERTZ-206",
+    "company": "hertz",
+    "number": 206,
     "lat": 42.369838,
     "lng": -122.87594
   },
   {
-    "id": "SPOT-207",
-    "company": "enterprise",
+    "id": "DOLLAR-206",
+    "company": "dollar",
+    "number": 206,
+    "lat": 42.369838,
+    "lng": -122.87594
+  },
+  {
+    "id": "HERTZ-207",
+    "company": "hertz",
+    "number": 207,
     "lat": 42.369848,
     "lng": -122.875959
   },
   {
-    "id": "SPOT-208",
-    "company": "enterprise",
+    "id": "DOLLAR-207",
+    "company": "dollar",
+    "number": 207,
+    "lat": 42.369848,
+    "lng": -122.875959
+  },
+  {
+    "id": "HERTZ-208",
+    "company": "hertz",
+    "number": 208,
     "lat": 42.369858,
     "lng": -122.875969
   },
   {
-    "id": "SPOT-209",
-    "company": "enterprise",
+    "id": "DOLLAR-208",
+    "company": "dollar",
+    "number": 208,
+    "lat": 42.369858,
+    "lng": -122.875969
+  },
+  {
+    "id": "HERTZ-209",
+    "company": "hertz",
+    "number": 209,
     "lat": 42.369868,
     "lng": -122.875979
   },
   {
-    "id": "SPOT-210",
-    "company": "enterprise",
+    "id": "DOLLAR-209",
+    "company": "dollar",
+    "number": 209,
+    "lat": 42.369868,
+    "lng": -122.875979
+  },
+  {
+    "id": "HERTZ-210",
+    "company": "hertz",
+    "number": 210,
     "lat": 42.369878,
     "lng": -122.875989
   },
   {
-    "id": "SPOT-211",
-    "company": "enterprise",
+    "id": "DOLLAR-210",
+    "company": "dollar",
+    "number": 210,
+    "lat": 42.369878,
+    "lng": -122.875989
+  },
+  {
+    "id": "HERTZ-211",
+    "company": "hertz",
+    "number": 211,
     "lat": 42.369888,
     "lng": -122.875999
   },
   {
-    "id": "SPOT-212",
-    "company": "enterprise",
+    "id": "DOLLAR-211",
+    "company": "dollar",
+    "number": 211,
+    "lat": 42.369888,
+    "lng": -122.875999
+  },
+  {
+    "id": "HERTZ-212",
+    "company": "hertz",
+    "number": 212,
     "lat": 42.369898,
     "lng": -122.876009
   },
   {
-    "id": "SPOT-213",
-    "company": "enterprise",
+    "id": "DOLLAR-212",
+    "company": "dollar",
+    "number": 212,
+    "lat": 42.369898,
+    "lng": -122.876009
+  },
+  {
+    "id": "HERTZ-213",
+    "company": "hertz",
+    "number": 213,
     "lat": 42.369908,
     "lng": -122.876019
   },
   {
-    "id": "SPOT-214",
-    "company": "enterprise",
+    "id": "DOLLAR-213",
+    "company": "dollar",
+    "number": 213,
+    "lat": 42.369908,
+    "lng": -122.876019
+  },
+  {
+    "id": "HERTZ-214",
+    "company": "hertz",
+    "number": 214,
     "lat": 42.369918,
     "lng": -122.876029
   },
   {
-    "id": "SPOT-215",
-    "company": "enterprise",
+    "id": "DOLLAR-214",
+    "company": "dollar",
+    "number": 214,
+    "lat": 42.369918,
+    "lng": -122.876029
+  },
+  {
+    "id": "HERTZ-215",
+    "company": "hertz",
+    "number": 215,
     "lat": 42.369928,
     "lng": -122.876039
   },
   {
-    "id": "SPOT-216",
-    "company": "enterprise",
+    "id": "DOLLAR-215",
+    "company": "dollar",
+    "number": 215,
+    "lat": 42.369928,
+    "lng": -122.876039
+  },
+  {
+    "id": "HERTZ-216",
+    "company": "hertz",
+    "number": 216,
     "lat": 42.369938,
     "lng": -122.876049
   },
   {
-    "id": "SPOT-217",
-    "company": "enterprise",
+    "id": "DOLLAR-216",
+    "company": "dollar",
+    "number": 216,
+    "lat": 42.369938,
+    "lng": -122.876049
+  },
+  {
+    "id": "HERTZ-217",
+    "company": "hertz",
+    "number": 217,
     "lat": 42.369948,
     "lng": -122.876059
   },
   {
-    "id": "SPOT-218",
-    "company": "enterprise",
+    "id": "DOLLAR-217",
+    "company": "dollar",
+    "number": 217,
+    "lat": 42.369948,
+    "lng": -122.876059
+  },
+  {
+    "id": "HERTZ-218",
+    "company": "hertz",
+    "number": 218,
     "lat": 42.369958,
     "lng": -122.876069
   },
   {
-    "id": "SPOT-219",
-    "company": "enterprise",
+    "id": "DOLLAR-218",
+    "company": "dollar",
+    "number": 218,
+    "lat": 42.369958,
+    "lng": -122.876069
+  },
+  {
+    "id": "HERTZ-219",
+    "company": "hertz",
+    "number": 219,
     "lat": 42.369968,
     "lng": -122.876079
   },
   {
-    "id": "SPOT-220",
-    "company": "enterprise",
+    "id": "DOLLAR-219",
+    "company": "dollar",
+    "number": 219,
+    "lat": 42.369968,
+    "lng": -122.876079
+  },
+  {
+    "id": "HERTZ-220",
+    "company": "hertz",
+    "number": 220,
     "lat": 42.369978,
     "lng": -122.876089
   },
   {
-    "id": "SPOT-221",
-    "company": "enterprise",
+    "id": "DOLLAR-220",
+    "company": "dollar",
+    "number": 220,
+    "lat": 42.369978,
+    "lng": -122.876089
+  },
+  {
+    "id": "HERTZ-221",
+    "company": "hertz",
+    "number": 221,
     "lat": 42.369988,
     "lng": -122.876099
   },
   {
-    "id": "SPOT-222",
-    "company": "enterprise",
+    "id": "DOLLAR-221",
+    "company": "dollar",
+    "number": 221,
+    "lat": 42.369988,
+    "lng": -122.876099
+  },
+  {
+    "id": "HERTZ-222",
+    "company": "hertz",
+    "number": 222,
     "lat": 42.369998,
     "lng": -122.876109
   },
   {
-    "id": "SPOT-223",
-    "company": "enterprise",
+    "id": "DOLLAR-222",
+    "company": "dollar",
+    "number": 222,
+    "lat": 42.369998,
+    "lng": -122.876109
+  },
+  {
+    "id": "HERTZ-223",
+    "company": "hertz",
+    "number": 223,
     "lat": 42.370008,
     "lng": -122.876119
   },
   {
-    "id": "SPOT-224",
-    "company": "enterprise",
+    "id": "DOLLAR-223",
+    "company": "dollar",
+    "number": 223,
+    "lat": 42.370008,
+    "lng": -122.876119
+  },
+  {
+    "id": "HERTZ-224",
+    "company": "hertz",
+    "number": 224,
     "lat": 42.370018,
     "lng": -122.876129
   },
   {
-    "id": "SPOT-225",
-    "company": "enterprise",
+    "id": "DOLLAR-224",
+    "company": "dollar",
+    "number": 224,
+    "lat": 42.370018,
+    "lng": -122.876129
+  },
+  {
+    "id": "HERTZ-225",
+    "company": "hertz",
+    "number": 225,
     "lat": 42.370028,
     "lng": -122.876139
   },
   {
-    "id": "SPOT-226",
-    "company": "enterprise",
+    "id": "DOLLAR-225",
+    "company": "dollar",
+    "number": 225,
+    "lat": 42.370028,
+    "lng": -122.876139
+  },
+  {
+    "id": "HERTZ-226",
+    "company": "hertz",
+    "number": 226,
     "lat": 42.370038,
     "lng": -122.876149
   },
   {
-    "id": "SPOT-227",
-    "company": "enterprise",
+    "id": "DOLLAR-226",
+    "company": "dollar",
+    "number": 226,
+    "lat": 42.370038,
+    "lng": -122.876149
+  },
+  {
+    "id": "HERTZ-227",
+    "company": "hertz",
+    "number": 227,
     "lat": 42.370048,
     "lng": -122.876159
   },
   {
-    "id": "SPOT-228",
-    "company": "enterprise",
+    "id": "DOLLAR-227",
+    "company": "dollar",
+    "number": 227,
+    "lat": 42.370048,
+    "lng": -122.876159
+  },
+  {
+    "id": "HERTZ-228",
+    "company": "hertz",
+    "number": 228,
     "lat": 42.370058,
     "lng": -122.876169
   },
   {
-    "id": "SPOT-229",
-    "company": "enterprise",
+    "id": "DOLLAR-228",
+    "company": "dollar",
+    "number": 228,
+    "lat": 42.370058,
+    "lng": -122.876169
+  },
+  {
+    "id": "HERTZ-229",
+    "company": "hertz",
+    "number": 229,
     "lat": 42.370068,
     "lng": -122.876179
   },
   {
-    "id": "SPOT-230",
-    "company": "enterprise",
+    "id": "DOLLAR-229",
+    "company": "dollar",
+    "number": 229,
+    "lat": 42.370068,
+    "lng": -122.876179
+  },
+  {
+    "id": "HERTZ-230",
+    "company": "hertz",
+    "number": 230,
     "lat": 42.370078,
     "lng": -122.876189
   },
   {
-    "id": "SPOT-231",
-    "company": "enterprise",
+    "id": "DOLLAR-230",
+    "company": "dollar",
+    "number": 230,
+    "lat": 42.370078,
+    "lng": -122.876189
+  },
+  {
+    "id": "HERTZ-231",
+    "company": "hertz",
+    "number": 231,
     "lat": 42.370088,
     "lng": -122.876199
   },
   {
-    "id": "SPOT-232",
-    "company": "enterprise",
+    "id": "DOLLAR-231",
+    "company": "dollar",
+    "number": 231,
+    "lat": 42.370088,
+    "lng": -122.876199
+  },
+  {
+    "id": "HERTZ-232",
+    "company": "hertz",
+    "number": 232,
     "lat": 42.370098,
     "lng": -122.876209
   },
   {
-    "id": "SPOT-233",
-    "company": "enterprise",
+    "id": "DOLLAR-232",
+    "company": "dollar",
+    "number": 232,
+    "lat": 42.370098,
+    "lng": -122.876209
+  },
+  {
+    "id": "HERTZ-233",
+    "company": "hertz",
+    "number": 233,
     "lat": 42.370108,
     "lng": -122.876219
   },
   {
-    "id": "SPOT-234",
-    "company": "enterprise",
+    "id": "DOLLAR-233",
+    "company": "dollar",
+    "number": 233,
+    "lat": 42.370108,
+    "lng": -122.876219
+  },
+  {
+    "id": "HERTZ-234",
+    "company": "hertz",
+    "number": 234,
     "lat": 42.370118,
     "lng": -122.876229
   },
   {
-    "id": "SPOT-235",
-    "company": "enterprise",
+    "id": "DOLLAR-234",
+    "company": "dollar",
+    "number": 234,
+    "lat": 42.370118,
+    "lng": -122.876229
+  },
+  {
+    "id": "HERTZ-235",
+    "company": "hertz",
+    "number": 235,
     "lat": 42.370128,
     "lng": -122.876239
   },
   {
-    "id": "SPOT-236",
-    "company": "enterprise",
+    "id": "DOLLAR-235",
+    "company": "dollar",
+    "number": 235,
+    "lat": 42.370128,
+    "lng": -122.876239
+  },
+  {
+    "id": "HERTZ-236",
+    "company": "hertz",
+    "number": 236,
     "lat": 42.370138,
     "lng": -122.876249
   },
   {
-    "id": "SPOT-237",
-    "company": "enterprise",
+    "id": "DOLLAR-236",
+    "company": "dollar",
+    "number": 236,
+    "lat": 42.370138,
+    "lng": -122.876249
+  },
+  {
+    "id": "HERTZ-237",
+    "company": "hertz",
+    "number": 237,
     "lat": 42.370148,
     "lng": -122.876259
   },
   {
-    "id": "SPOT-238",
-    "company": "enterprise",
+    "id": "DOLLAR-237",
+    "company": "dollar",
+    "number": 237,
+    "lat": 42.370148,
+    "lng": -122.876259
+  },
+  {
+    "id": "HERTZ-238",
+    "company": "hertz",
+    "number": 238,
     "lat": 42.370158,
     "lng": -122.876269
   },
   {
-    "id": "SPOT-239",
-    "company": "enterprise",
+    "id": "DOLLAR-238",
+    "company": "dollar",
+    "number": 238,
+    "lat": 42.370158,
+    "lng": -122.876269
+  },
+  {
+    "id": "HERTZ-239",
+    "company": "hertz",
+    "number": 239,
     "lat": 42.370168,
     "lng": -122.876279
   },
   {
-    "id": "SPOT-240",
-    "company": "enterprise",
+    "id": "DOLLAR-239",
+    "company": "dollar",
+    "number": 239,
+    "lat": 42.370168,
+    "lng": -122.876279
+  },
+  {
+    "id": "HERTZ-240",
+    "company": "hertz",
+    "number": 240,
     "lat": 42.370178,
     "lng": -122.876289
   },
   {
-    "id": "SPOT-241",
-    "company": "enterprise",
+    "id": "DOLLAR-240",
+    "company": "dollar",
+    "number": 240,
+    "lat": 42.370178,
+    "lng": -122.876289
+  },
+  {
+    "id": "HERTZ-241",
+    "company": "hertz",
+    "number": 241,
     "lat": 42.370188,
     "lng": -122.876299
   },
   {
-    "id": "SPOT-242",
-    "company": "enterprise",
+    "id": "DOLLAR-241",
+    "company": "dollar",
+    "number": 241,
+    "lat": 42.370188,
+    "lng": -122.876299
+  },
+  {
+    "id": "HERTZ-242",
+    "company": "hertz",
+    "number": 242,
     "lat": 42.370198,
     "lng": -122.876309
   },
   {
-    "id": "SPOT-243",
-    "company": "enterprise",
+    "id": "DOLLAR-242",
+    "company": "dollar",
+    "number": 242,
+    "lat": 42.370198,
+    "lng": -122.876309
+  },
+  {
+    "id": "HERTZ-243",
+    "company": "hertz",
+    "number": 243,
     "lat": 42.370208,
     "lng": -122.876319
   },
   {
-    "id": "SPOT-244",
-    "company": "enterprise",
+    "id": "DOLLAR-243",
+    "company": "dollar",
+    "number": 243,
+    "lat": 42.370208,
+    "lng": -122.876319
+  },
+  {
+    "id": "HERTZ-244",
+    "company": "hertz",
+    "number": 244,
     "lat": 42.370218,
     "lng": -122.876329
   },
   {
-    "id": "SPOT-245",
-    "company": "enterprise",
+    "id": "DOLLAR-244",
+    "company": "dollar",
+    "number": 244,
+    "lat": 42.370218,
+    "lng": -122.876329
+  },
+  {
+    "id": "HERTZ-245",
+    "company": "hertz",
+    "number": 245,
     "lat": 42.370228,
     "lng": -122.876339
   },
   {
-    "id": "SPOT-246",
-    "company": "enterprise",
+    "id": "DOLLAR-245",
+    "company": "dollar",
+    "number": 245,
+    "lat": 42.370228,
+    "lng": -122.876339
+  },
+  {
+    "id": "HERTZ-246",
+    "company": "hertz",
+    "number": 246,
     "lat": 42.370238,
     "lng": -122.876349
   },
   {
-    "id": "SPOT-247",
-    "company": "enterprise",
+    "id": "DOLLAR-246",
+    "company": "dollar",
+    "number": 246,
+    "lat": 42.370238,
+    "lng": -122.876349
+  },
+  {
+    "id": "HERTZ-247",
+    "company": "hertz",
+    "number": 247,
     "lat": 42.370248,
     "lng": -122.876359
   },
   {
-    "id": "SPOT-248",
-    "company": "enterprise",
+    "id": "DOLLAR-247",
+    "company": "dollar",
+    "number": 247,
+    "lat": 42.370248,
+    "lng": -122.876359
+  },
+  {
+    "id": "BUDGET-248",
+    "company": "budget",
+    "number": 248,
     "lat": 42.370258,
     "lng": -122.876369
   },
   {
-    "id": "SPOT-249",
-    "company": "enterprise",
+    "id": "BUDGET-249",
+    "company": "budget",
+    "number": 249,
     "lat": 42.370268,
     "lng": -122.876379
   },
   {
-    "id": "SPOT-250",
-    "company": "enterprise",
+    "id": "BUDGET-250",
+    "company": "budget",
+    "number": 250,
     "lat": 42.370278,
     "lng": -122.876389
   },
   {
-    "id": "SPOT-251",
-    "company": "enterprise",
+    "id": "BUDGET-251",
+    "company": "budget",
+    "number": 251,
     "lat": 42.370288,
     "lng": -122.876399
   },
   {
-    "id": "SPOT-252",
-    "company": "enterprise",
+    "id": "BUDGET-252",
+    "company": "budget",
+    "number": 252,
     "lat": 42.370298,
     "lng": -122.876409
   },
   {
-    "id": "SPOT-253",
-    "company": "enterprise",
+    "id": "BUDGET-253",
+    "company": "budget",
+    "number": 253,
     "lat": 42.370308,
     "lng": -122.876419
   },
   {
-    "id": "SPOT-254",
-    "company": "enterprise",
+    "id": "BUDGET-254",
+    "company": "budget",
+    "number": 254,
     "lat": 42.370318,
     "lng": -122.876429
   },
   {
-    "id": "SPOT-255",
-    "company": "enterprise",
+    "id": "BUDGET-255",
+    "company": "budget",
+    "number": 255,
     "lat": 42.370328,
     "lng": -122.876439
   },
   {
-    "id": "SPOT-256",
-    "company": "enterprise",
+    "id": "BUDGET-256",
+    "company": "budget",
+    "number": 256,
     "lat": 42.370338,
     "lng": -122.876449
   },
   {
-    "id": "SPOT-257",
-    "company": "enterprise",
+    "id": "BUDGET-257",
+    "company": "budget",
+    "number": 257,
     "lat": 42.370348,
     "lng": -122.876459
   },
   {
-    "id": "SPOT-258",
-    "company": "enterprise",
+    "id": "BUDGET-258",
+    "company": "budget",
+    "number": 258,
     "lat": 42.370358,
     "lng": -122.876469
   },
   {
-    "id": "SPOT-259",
-    "company": "enterprise",
+    "id": "BUDGET-259",
+    "company": "budget",
+    "number": 259,
     "lat": 42.370368,
     "lng": -122.876479
   },
   {
-    "id": "SPOT-260",
-    "company": "enterprise",
+    "id": "BUDGET-260",
+    "company": "budget",
+    "number": 260,
     "lat": 42.370378,
     "lng": -122.876489
   },
   {
-    "id": "SPOT-261",
-    "company": "enterprise",
+    "id": "BUDGET-261",
+    "company": "budget",
+    "number": 261,
     "lat": 42.370388,
     "lng": -122.876499
   },
   {
-    "id": "SPOT-262",
-    "company": "enterprise",
+    "id": "BUDGET-262",
+    "company": "budget",
+    "number": 262,
     "lat": 42.370398,
     "lng": -122.876509
   },
   {
-    "id": "SPOT-263",
-    "company": "enterprise",
+    "id": "BUDGET-263",
+    "company": "budget",
+    "number": 263,
     "lat": 42.370408,
     "lng": -122.876519
   },
   {
-    "id": "SPOT-264",
-    "company": "enterprise",
+    "id": "BUDGET-264",
+    "company": "budget",
+    "number": 264,
     "lat": 42.370418,
     "lng": -122.876529
   },
   {
-    "id": "SPOT-265",
-    "company": "enterprise",
+    "id": "BUDGET-265",
+    "company": "budget",
+    "number": 265,
     "lat": 42.370428,
     "lng": -122.876539
   },
   {
-    "id": "SPOT-266",
-    "company": "enterprise",
+    "id": "BUDGET-266",
+    "company": "budget",
+    "number": 266,
     "lat": 42.370438,
     "lng": -122.876549
   },
   {
-    "id": "SPOT-267",
-    "company": "enterprise",
+    "id": "BUDGET-267",
+    "company": "budget",
+    "number": 267,
     "lat": 42.370448,
     "lng": -122.876559
   },
   {
-    "id": "SPOT-268",
-    "company": "enterprise",
+    "id": "BUDGET-268",
+    "company": "budget",
+    "number": 268,
     "lat": 42.370458,
     "lng": -122.876569
   },
   {
-    "id": "SPOT-269",
-    "company": "enterprise",
+    "id": "BUDGET-269",
+    "company": "budget",
+    "number": 269,
     "lat": 42.370468,
     "lng": -122.876579
   },
   {
-    "id": "SPOT-270",
-    "company": "enterprise",
+    "id": "BUDGET-270",
+    "company": "budget",
+    "number": 270,
     "lat": 42.370478,
     "lng": -122.876589
   },
   {
-    "id": "SPOT-271",
-    "company": "enterprise",
+    "id": "BUDGET-271",
+    "company": "budget",
+    "number": 271,
     "lat": 42.370488,
     "lng": -122.876599
   },
   {
-    "id": "SPOT-272",
-    "company": "enterprise",
+    "id": "BUDGET-272",
+    "company": "budget",
+    "number": 272,
     "lat": 42.370498,
     "lng": -122.876609
   },
   {
-    "id": "SPOT-273",
-    "company": "enterprise",
+    "id": "BUDGET-273",
+    "company": "budget",
+    "number": 273,
     "lat": 42.370508,
     "lng": -122.876619
   },
   {
-    "id": "SPOT-274",
-    "company": "enterprise",
+    "id": "BUDGET-274",
+    "company": "budget",
+    "number": 274,
     "lat": 42.370518,
     "lng": -122.876629
   },
   {
-    "id": "SPOT-275",
-    "company": "enterprise",
+    "id": "BUDGET-275",
+    "company": "budget",
+    "number": 275,
     "lat": 42.370528,
     "lng": -122.876639
   },
   {
-    "id": "SPOT-276",
-    "company": "enterprise",
+    "id": "BUDGET-276",
+    "company": "budget",
+    "number": 276,
     "lat": 42.370538,
     "lng": -122.876649
   },
   {
-    "id": "SPOT-277",
-    "company": "enterprise",
+    "id": "BUDGET-277",
+    "company": "budget",
+    "number": 277,
     "lat": 42.370548,
     "lng": -122.876659
   },
   {
-    "id": "SPOT-278",
-    "company": "enterprise",
+    "id": "BUDGET-278",
+    "company": "budget",
+    "number": 278,
     "lat": 42.370558,
     "lng": -122.876669
   },
   {
-    "id": "SPOT-279",
-    "company": "enterprise",
+    "id": "BUDGET-279",
+    "company": "budget",
+    "number": 279,
     "lat": 42.370568,
     "lng": -122.876679
   },
   {
-    "id": "SPOT-280",
-    "company": "enterprise",
+    "id": "BUDGET-280",
+    "company": "budget",
+    "number": 280,
     "lat": 42.370578,
     "lng": -122.876689
   },
   {
-    "id": "SPOT-281",
-    "company": "enterprise",
+    "id": "BUDGET-281",
+    "company": "budget",
+    "number": 281,
     "lat": 42.370588,
     "lng": -122.876699
   },
   {
-    "id": "SPOT-282",
-    "company": "enterprise",
+    "id": "UNASSIGNED-282",
+    "company": "unassigned",
+    "number": 282,
     "lat": 42.370598,
     "lng": -122.876709
   },
   {
-    "id": "SPOT-283",
-    "company": "enterprise",
+    "id": "UNASSIGNED-283",
+    "company": "unassigned",
+    "number": 283,
     "lat": 42.370608,
     "lng": -122.876719
   },
   {
-    "id": "SPOT-284",
-    "company": "enterprise",
+    "id": "UNASSIGNED-284",
+    "company": "unassigned",
+    "number": 284,
     "lat": 42.370618,
     "lng": -122.876729
   },
   {
-    "id": "SPOT-285",
-    "company": "enterprise",
+    "id": "UNASSIGNED-285",
+    "company": "unassigned",
+    "number": 285,
     "lat": 42.370628,
     "lng": -122.876739
   },
   {
-    "id": "SPOT-286",
-    "company": "enterprise",
+    "id": "UNASSIGNED-286",
+    "company": "unassigned",
+    "number": 286,
     "lat": 42.370638,
     "lng": -122.876749
   },
   {
-    "id": "SPOT-287",
-    "company": "enterprise",
+    "id": "UNASSIGNED-287",
+    "company": "unassigned",
+    "number": 287,
     "lat": 42.370648,
     "lng": -122.876759
   },
   {
-    "id": "SPOT-288",
-    "company": "enterprise",
+    "id": "UNASSIGNED-288",
+    "company": "unassigned",
+    "number": 288,
     "lat": 42.370658,
     "lng": -122.876769
   },
   {
-    "id": "SPOT-289",
-    "company": "enterprise",
+    "id": "UNASSIGNED-289",
+    "company": "unassigned",
+    "number": 289,
     "lat": 42.370668,
     "lng": -122.876779
   },
   {
-    "id": "SPOT-290",
-    "company": "enterprise",
+    "id": "UNASSIGNED-290",
+    "company": "unassigned",
+    "number": 290,
     "lat": 42.370678,
     "lng": -122.876789
   },
   {
-    "id": "SPOT-291",
-    "company": "enterprise",
+    "id": "UNASSIGNED-291",
+    "company": "unassigned",
+    "number": 291,
     "lat": 42.370688,
     "lng": -122.876799
   },
   {
-    "id": "SPOT-292",
-    "company": "enterprise",
+    "id": "UNASSIGNED-292",
+    "company": "unassigned",
+    "number": 292,
     "lat": 42.370698,
     "lng": -122.876809
   },
   {
-    "id": "SPOT-293",
-    "company": "enterprise",
+    "id": "UNASSIGNED-293",
+    "company": "unassigned",
+    "number": 293,
     "lat": 42.370708,
     "lng": -122.876819
   },
   {
-    "id": "SPOT-294",
-    "company": "enterprise",
+    "id": "UNASSIGNED-294",
+    "company": "unassigned",
+    "number": 294,
     "lat": 42.370718,
     "lng": -122.876829
   },
   {
-    "id": "SPOT-295",
-    "company": "enterprise",
+    "id": "UNASSIGNED-295",
+    "company": "unassigned",
+    "number": 295,
     "lat": 42.370728,
     "lng": -122.876839
   },
   {
-    "id": "SPOT-296",
-    "company": "enterprise",
+    "id": "UNASSIGNED-296",
+    "company": "unassigned",
+    "number": 296,
     "lat": 42.370738,
     "lng": -122.876849
   },
   {
-    "id": "SPOT-297",
-    "company": "enterprise",
+    "id": "UNASSIGNED-297",
+    "company": "unassigned",
+    "number": 297,
     "lat": 42.370748,
     "lng": -122.876859
   },
   {
-    "id": "SPOT-298",
-    "company": "enterprise",
+    "id": "UNASSIGNED-298",
+    "company": "unassigned",
+    "number": 298,
     "lat": 42.370758,
     "lng": -122.876869
   },
   {
-    "id": "SPOT-299",
-    "company": "enterprise",
+    "id": "UNASSIGNED-299",
+    "company": "unassigned",
+    "number": 299,
     "lat": 42.370768,
     "lng": -122.876879
   },
   {
-    "id": "SPOT-300",
-    "company": "enterprise",
+    "id": "UNASSIGNED-300",
+    "company": "unassigned",
+    "number": 300,
     "lat": 42.370778,
     "lng": -122.876889
   },
   {
-    "id": "SPOT-301",
-    "company": "enterprise",
+    "id": "UNASSIGNED-301",
+    "company": "unassigned",
+    "number": 301,
     "lat": 42.370788,
     "lng": -122.876899
   }
