@@ -1,72 +1,31 @@
 let config = null;
 let allSpots = [];
-let selectedSpot = null;
+let currentNumber = ""; // digits as string
 
 const $ = (id) => document.getElementById(id);
+function setStatus(msg){ $("status").textContent = msg; }
+function normalizeCompany(s){ return (s || "").trim().toLowerCase(); }
 
-function setStatus(msg) { $("status").textContent = msg; }
-
-// Accepts inputs like:
-// - "48" -> "SPOT-048"
-// - "048" -> "SPOT-048"
-// - "SPOT-48" -> "SPOT-048"
-// - "SPOT-048" -> "SPOT-048"
-function normalizeSpotInput(raw) {
-  const s = (raw || "").trim().toUpperCase();
-  if (!s) return "";
-
-  // If user typed just digits
-  if (/^\d+$/.test(s)) {
-    return `SPOT-${s.padStart(3, "0")}`;
+function isIOS(){ return /iPad|iPhone|iPod/.test(navigator.userAgent); }
+function openNativeNavigation(lat, lng){
+  const dlat = encodeURIComponent(lat);
+  const dlng = encodeURIComponent(lng);
+  if (isIOS()){
+    window.location.href = `https://maps.apple.com/?daddr=${dlat},${dlng}&dirflg=w`;
+  } else {
+    window.location.href = `https://www.google.com/maps/dir/?api=1&destination=${dlat},${dlng}&travelmode=walking`;
   }
-
-  // If they typed SPOT-<digits>
-  const m = s.match(/^SPOT[-\s_]*(\d+)$/);
-  if (m) {
-    return `SPOT-${m[1].padStart(3, "0")}`;
-  }
-
-  // Otherwise, return as-is (for future real IDs like E-241)
-  return s;
 }
 
-function normalizeCompany(s) { return (s || "").trim().toLowerCase(); }
-
-async function loadJson(path) {
+async function loadJson(path){
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${path}`);
   return res.json();
 }
 
-function isIOS() {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent);
-}
-
-// FREE routing via deep link to native Maps
-function openNativeNavigation(lat, lng) {
-  const dlat = encodeURIComponent(lat);
-  const dlng = encodeURIComponent(lng);
-
-  if (isIOS()) {
-    window.location.href = `https://maps.apple.com/?daddr=${dlat},${dlng}&dirflg=w`;
-  } else {
-    window.location.href =
-      `https://www.google.com/maps/dir/?api=1&destination=${dlat},${dlng}&travelmode=walking`;
-  }
-}
-
-function getUrlParams() {
-  const p = new URLSearchParams(window.location.search);
-  return {
-    company: normalizeCompany(p.get("company") || ""),
-    spot: p.get("spot") || ""
-  };
-}
-
-function populateCompanies() {
+function populateCompanies(){
   const sel = $("companySelect");
   sel.innerHTML = "";
-
   const enabled = config.enabledCompanies || [];
   enabled.forEach((id) => {
     const opt = document.createElement("option");
@@ -76,99 +35,112 @@ function populateCompanies() {
   });
 
   const saved = localStorage.getItem("company");
-  const url = getUrlParams();
-
   const defaultCompany = config.defaultCompany || enabled[0];
-  const initial =
-    (enabled.includes(url.company) && url.company) ||
-    (enabled.includes(saved) && saved) ||
-    defaultCompany;
-
-  sel.value = initial;
+  sel.value = enabled.includes(saved) ? saved : defaultCompany;
 
   sel.addEventListener("change", () => {
     localStorage.setItem("company", sel.value);
     clearSelection();
-    setStatus("Enter your stall/spot number, then tap Find.");
+    setStatus("Enter your stall number, then tap Find My Car.");
   });
 }
 
-function clearSelection() {
-  selectedSpot = null;
-  $("navBtn").disabled = true;
+function updateDisplay(){
+  const has = currentNumber.length > 0;
+  const ghost = $("numDisplay");
+  const val = $("numValue");
+
+  if (!has){
+    ghost.style.display = "inline";
+    val.style.display = "none";
+    $("goBtn").disabled = true;
+  } else {
+    ghost.style.display = "none";
+    val.style.display = "inline";
+    val.textContent = currentNumber;
+    $("goBtn").disabled = false;
+  }
+}
+
+function clearSelection(){
   $("selectedLabel").textContent = "—";
   $("selectedCoords").textContent = "—";
 }
 
-function findSpot(companyId, spotInputRaw) {
-  const spotId = normalizeSpotInput(spotInputRaw);
+function appendDigit(d){
+  if (currentNumber.length >= 4) return; // adjust if needed
+  if (currentNumber === "0") currentNumber = "";
+  currentNumber += String(d);
+  currentNumber = currentNumber.replace(/^0+(?=\d)/, "");
+  updateDisplay();
+}
 
-  // Note: current dataset uses company="enterprise" for all rows.
-  // You can later split it across companies.
+function backspace(){
+  currentNumber = currentNumber.slice(0, -1);
+  updateDisplay();
+}
+
+function clearAll(){
+  currentNumber = "";
+  updateDisplay();
+}
+
+function findSpot(companyId, numberStr){
+  const n = parseInt(numberStr, 10);
+  if (!Number.isFinite(n)) return null;
   return allSpots.find(s =>
     normalizeCompany(s.company) === normalizeCompany(companyId) &&
-    (String(s.id || "").toUpperCase() === spotId)
+    Number(s.number) === n
   ) || null;
 }
 
-function showSelection(spot, companyId) {
-  selectedSpot = spot;
-  $("navBtn").disabled = false;
-  $("selectedLabel").textContent = `${spot.id} (${companyId})`;
+function handleFindMyCar(){
+  const companyId = $("companySelect").value;
+  if (!currentNumber){
+    setStatus("Please enter your stall number.");
+    return;
+  }
+
+  const spot = findSpot(companyId, currentNumber);
+  if (!spot){
+    clearSelection();
+    setStatus(`We couldn't find stall ${currentNumber}. Double-check the number on your tag/sign.`);
+    return;
+  }
+
+  $("selectedLabel").textContent = `${companyId.toUpperCase()} ${spot.number}`;
   $("selectedCoords").textContent = `${spot.lat}, ${spot.lng}`;
-  setStatus(`Found it. Tap Navigate to open directions in Maps.`);
+  setStatus("Opening directions in Maps…");
+  openNativeNavigation(spot.lat, spot.lng);
 }
 
-function attachHandlers() {
-  $("findBtn").addEventListener("click", () => {
-    const companyId = $("companySelect").value;
-    const spotRaw = $("spotInput").value;
-
-    const normalized = normalizeSpotInput(spotRaw);
-    if (!normalized) {
-      clearSelection();
-      setStatus("Please enter a stall/spot number (example: 48).");
-      return;
-    }
-
-    const spot = findSpot(companyId, spotRaw);
-    if (!spot) {
-      clearSelection();
-      setStatus(`We couldn't find spot ${normalized}. Double-check the number on your tag/sign.`);
-      return;
-    }
-
-    showSelection(spot, companyId);
+function attachHandlers(){
+  document.querySelectorAll("[data-digit]").forEach(btn => {
+    btn.addEventListener("click", () => appendDigit(btn.getAttribute("data-digit")));
   });
+  $("backBtn").addEventListener("click", backspace);
+  $("clearBtn").addEventListener("click", clearAll);
+  $("goBtn").addEventListener("click", handleFindMyCar);
 
-  $("navBtn").addEventListener("click", () => {
-    if (!selectedSpot) return;
-    openNativeNavigation(selectedSpot.lat, selectedSpot.lng);
-  });
-
-  $("spotInput").addEventListener("keydown", (e) => {
-    if (e.key === "Enter") $("findBtn").click();
+  // allow physical keyboard too
+  window.addEventListener("keydown", (e) => {
+    if (/^[0-9]$/.test(e.key)) appendDigit(e.key);
+    if (e.key === "Backspace") backspace();
+    if (e.key === "Escape") clearAll();
+    if (e.key === "Enter") handleFindMyCar();
   });
 }
 
-async function boot() {
-  try {
+async function boot(){
+  try{
     config = await loadJson("./config/site.json");
     allSpots = await loadJson("./data/spots.json");
-
     populateCompanies();
     attachHandlers();
-
-    setStatus("Enter your stall/spot number, then tap Find.");
+    setStatus("Enter your stall number, then tap Find My Car.");
+    updateDisplay();
     clearSelection();
-
-    // Auto-fill from QR/link params (accept both 48 and SPOT-048)
-    const url = getUrlParams();
-    if (url.spot) {
-      $("spotInput").value = url.spot;
-      $("findBtn").click();
-    }
-  } catch (e) {
+  } catch(e){
     console.error(e);
     setStatus(`Error: ${e.message}`);
   }
